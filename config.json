@@ -7,14 +7,14 @@
   ],
   "ramp": [
     {
-      "until": "LAUNCH+6",
+      "until": "2026-11-30",
       "post_times": [
         "20:00"
       ],
       "note": "week 1: new account, 1 post a day"
     },
     {
-      "until": "LAUNCH+13",
+      "until": "2026-12-07",
       "post_times": [
         "12:15",
         "20:00"
@@ -32,12 +32,13 @@
     "privacy": "PUBLIC_TO_EVERYONE",
     "ai_label": true,
     "save_as_draft_instead": false,
-    "account_id": "",
+    "account_id": "70149",
     "draft_slots": [
       "07:30"
     ],
     "draft_note": "This slot's TikTok copy goes to Jacob's TikTok drafts with no music, so he can add a trending sound and post it. Instagram and Facebook still post automatically.",
-    "handle": "saythis.instead"
+    "handle": "saythis.instead",
+    "draft_notify_topic": "jacob-drafts-4bb84b79e177"
   },
   "promo": {
     "enabled": false,
@@ -50,7 +51,7 @@
   "instagram": {
     "enabled": true,
     "handle": "saythis.instead",
-    "account_id": "",
+    "account_id": "87771",
     "caption_add": "💬 Comment PLAYBOOK and I'll DM you 75 scripts for raises, pricing and hard work talks.",
     "trial_formats": [],
     "trial_note": "Trial Reels off until the account meets Instagram's follower minimum (Lunar's trial failed 2026-11-11). To turn back on: trial_formats [\"feel\"]."
@@ -81,9 +82,9 @@
     "edge_voice": "en-US-AvaNeural"
   },
   "facebook": {
-    "enabled": false,
-    "account_id": "",
-    "page_id": "",
+    "enabled": true,
+    "account_id": "65338",
+    "page_id": "1472066402653754",
     "page_name": "Say This Instead",
     "caption_add": "💬 75 word-for-word scripts for raises, pricing and hard work talks: link on our Page."
   },
@@ -100,5 +101,6 @@
   ],
   "carousel_note": "This slot posts a swipeable carousel (every card as a photo) on TikTok, Instagram and Facebook instead of a video.",
   "ramp_note": "Run engine/assign_slots.py with the launch date once the accounts exist; it writes real dates into ramp and the queue.",
-  "brand": "Say This Instead"
+  "brand": "Say This Instead",
+  "launch_date": "2026-11-24"
 }

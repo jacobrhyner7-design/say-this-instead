@@ -259,6 +259,8 @@ def main():
                     row["submission_id"] = schedule(draft_path, caption, when_s, cfg, promo,
                                                     media_url=upload(draft_path), draft=True)
                     row["status"] = "draft sent"
+                    from notify import draft_caption
+                    draft_caption(caption, "Say This Instead", when)
                 else:
                     row["submission_id"] = schedule(path, caption, when_s, cfg, promo, media_url=media)
                     row["status"] = "scheduled"
