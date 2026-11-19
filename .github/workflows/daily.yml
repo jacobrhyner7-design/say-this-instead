@@ -1,0 +1,63 @@
+name: Say This Instead daily posts
+
+on:
+  schedule:
+    # 10:45 UTC = 4:45am Central in winter (5:45am in summer). Schedules that day's 7:30am, 1pm, 8:30pm posts.
+    - cron: "45 10 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render only, do not post (1 = yes)"
+        default: "0"
+      run_date:
+        description: "Test a different day, YYYY-MM-DD (dry runs only, blank = today)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency: sti-daily
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q pillow numpy edge-tts
+      - name: Make, schedule and log today's posts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLOTATO_API_KEY: ${{ secrets.BLOTATO_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          BLOTATO_TIKTOK_ACCOUNT_ID: ${{ secrets.BLOTATO_TIKTOK_ACCOUNT_ID }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          RUN_DATE: ${{ github.event.inputs.dry_run == '1' && github.event.inputs.run_date || '' }}
+        run: python engine/daily.py
+      - name: Draft replies to new Instagram comments (never blocks posting)
+        continue-on-error: true
+        if: github.event.inputs.dry_run != '1'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLOTATO_API_KEY: ${{ secrets.BLOTATO_API_KEY }}
+        run: python engine/ig_engage.py draft
+      - name: Keep today's videos for review (14 days)
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.run_number }}
+          path: out/*.mp4
+          retention-days: 14
+      - name: Save the log
+        if: github.event.inputs.dry_run != '1'
+        run: |
+          git config user.name "sti-bot"
+          git config user.email "sti-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Daily log $(date -u +%F)"
+          git push

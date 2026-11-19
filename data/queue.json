@@ -1,0 +1,832 @@
+[
+  {
+    "format": "translator",
+    "topic": "Raises",
+    "who": "your boss",
+    "says": "We don't have budget for raises this year.",
+    "means": [
+      "I need you to make the case for me.",
+      "I'm hoping you'll drop it."
+    ],
+    "say": [
+      "I understand. What would it take to revisit this in 3 months?",
+      "Can we put the numbers I'm hitting in writing now?",
+      "If salary is fixed, can we talk title or extra time off?"
+    ],
+    "cta": "Has a boss ever told you there's no budget?",
+    "hook": "You finally asked for the raise. And got the budget speech.",
+    "mood": "comfort",
+    "cast": "a Black woman in her 30s with braids, in a mustard sweater",
+    "setting": "a glass-walled meeting room, her manager across the table looking apologetic",
+    "caption": "You finally asked for the raise. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#raises"
+    ],
+    "scene_files": [
+      "posts/we-don-t-have-budget-for-raises-this-year/01.jpg",
+      "posts/we-don-t-have-budget-for-raises-this-year/02.jpg",
+      "posts/we-don-t-have-budget-for-raises-this-year/03.jpg",
+      "posts/we-don-t-have-budget-for-raises-this-year/04.jpg",
+      "posts/we-don-t-have-budget-for-raises-this-year/05.jpg",
+      "posts/we-don-t-have-budget-for-raises-this-year/06.jpg"
+    ]
+  },
+  {
+    "format": "translator",
+    "topic": "Pricing",
+    "who": "the client",
+    "says": "Can you do it cheaper?",
+    "means": [
+      "I like you, but I'm testing your price.",
+      "I'll respect a confident answer."
+    ],
+    "say": [
+      "Possibly. Cheaper compared to what?",
+      "What part of this matters most to you?",
+      "Money aside, is this the result you want?"
+    ],
+    "cta": "What's the lowest anyone has asked you to go?",
+    "hook": "They loved your work. Then asked you to cut your price.",
+    "mood": "playful",
+    "cast": "a South Asian man in his 30s with a short beard, freelance designer in a denim shirt",
+    "setting": "a sunny home office, video call with a client on his laptop",
+    "caption": "They loved your work. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#pricing"
+    ],
+    "scene_files": [
+      "posts/can-you-do-it-cheaper/01.jpg",
+      "posts/can-you-do-it-cheaper/02.jpg",
+      "posts/can-you-do-it-cheaper/03.jpg",
+      "posts/can-you-do-it-cheaper/04.jpg",
+      "posts/can-you-do-it-cheaper/05.jpg",
+      "posts/can-you-do-it-cheaper/06.jpg"
+    ],
+    "nepq": true
+  },
+  {
+    "format": "translator",
+    "topic": "Salary",
+    "who": "the recruiter",
+    "says": "What are your salary expectations?",
+    "means": [
+      "Give me a number so I can anchor low.",
+      "I have a range I'm not telling you."
+    ],
+    "say": [
+      "I'd love to hear the range budgeted for this role first.",
+      "Based on my research, roles like this pay between X and Y.",
+      "I'm flexible for the right fit. What's the full package?"
+    ],
+    "cta": "Do you name a number first, or make them go first?",
+    "hook": "One question can cost you $10,000. Don't answer it first.",
+    "mood": "uplift",
+    "cast": "an East Asian woman in her 20s with a sleek bob, in a navy blazer",
+    "setting": "a cozy cafe, on a phone call with a recruiter, notebook open",
+    "caption": "One question can cost you $10,000. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#salary"
+    ],
+    "scene_files": [
+      "posts/what-are-your-salary-expectations/01.jpg",
+      "posts/what-are-your-salary-expectations/02.jpg",
+      "posts/what-are-your-salary-expectations/03.jpg",
+      "posts/what-are-your-salary-expectations/04.jpg",
+      "posts/what-are-your-salary-expectations/05.jpg",
+      "posts/what-are-your-salary-expectations/06.jpg"
+    ]
+  },
+  {
+    "format": "translator",
+    "topic": "Boundaries",
+    "who": "a coworker",
+    "says": "Can you just quickly help me with this?",
+    "means": [
+      "I'm handing you my work.",
+      "I'm counting on you not saying no."
+    ],
+    "say": [
+      "I can't today, but I can show you where to start.",
+      "Happy to after I finish mine. Does Thursday work?",
+      "Which of my tasks should I drop to take this on?"
+    ],
+    "cta": "Who's the coworker who always needs a quick favor?",
+    "hook": "It's 4:55. And here comes the 'quick favor'.",
+    "mood": "playful",
+    "cast": "a Latino man in his 40s with glasses, in a coral polo",
+    "setting": "an open office at the end of the day, a coworker leaning over his desk with a stack of papers",
+    "caption": "It's 4:55. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#boundaries"
+    ],
+    "scene_files": [
+      "posts/can-you-just-quickly-help-me-with-this/01.jpg",
+      "posts/can-you-just-quickly-help-me-with-this/02.jpg",
+      "posts/can-you-just-quickly-help-me-with-this/03.jpg",
+      "posts/can-you-just-quickly-help-me-with-this/04.jpg",
+      "posts/can-you-just-quickly-help-me-with-this/05.jpg",
+      "posts/can-you-just-quickly-help-me-with-this/06.jpg"
+    ]
+  },
+  {
+    "format": "translator",
+    "topic": "Sales",
+    "who": "the buyer",
+    "says": "I need to think about it.",
+    "means": [
+      "Something isn't clear or isn't worth it yet.",
+      "I don't want to say no to your face."
+    ],
+    "say": [
+      "That makes sense. What's on your mind about it?",
+      "Is it the money, the timing, or something else?",
+      "Let's suppose that's solved. What would you want next?"
+    ],
+    "cta": "What's the hardest objection you hear?",
+    "hook": "'I need to think about it.' The sale is slipping away.",
+    "mood": "comfort",
+    "cast": "a white woman in her 30s with a high ponytail, saleswoman in a cream blouse",
+    "setting": "a client's kitchen table with a proposal spread out, the buyer leaning back unsure",
+    "caption": "'I need to think about it. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#sales"
+    ],
+    "scene_files": [
+      "posts/i-need-to-think-about-it/01.jpg",
+      "posts/i-need-to-think-about-it/02.jpg",
+      "posts/i-need-to-think-about-it/03.jpg",
+      "posts/i-need-to-think-about-it/04.jpg",
+      "posts/i-need-to-think-about-it/05.jpg",
+      "posts/i-need-to-think-about-it/06.jpg"
+    ],
+    "nepq": true
+  },
+  {
+    "format": "swap",
+    "topic": "Raises",
+    "title": "Stop saying these 3 things when you ask for a raise",
+    "pairs": [
+      [
+        "I feel like I deserve more.",
+        "Here are the results I delivered this year."
+      ],
+      [
+        "Is there any way I could get a raise?",
+        "I'd like to discuss moving my pay to X."
+      ],
+      [
+        "I know it's a bad time, but...",
+        "Is now a good time to talk about my pay?"
+      ]
+    ],
+    "cta": "Have you asked for a raise this year?",
+    "hook": "You rehearsed it 20 times. Then said 'sorry' first.",
+    "mood": "uplift",
+    "cast": "a Middle Eastern man in his 30s with dark wavy hair, in a light blue shirt",
+    "setting": "standing outside his manager's office door, taking a breath",
+    "caption": "You rehearsed it 20 times. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#raises"
+    ],
+    "scene_files": [
+      "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/01.jpg",
+      "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/02.jpg",
+      "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/03.jpg",
+      "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/04.jpg",
+      "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/05.jpg"
+    ]
+  },
+  {
+    "format": "feel",
+    "topic": "Confidence",
+    "title": "You froze in that meeting today.",
+    "lines": [
+      "You knew the answer. The words just didn't come.",
+      "That doesn't make you less smart.",
+      "It makes you human in a room that moved fast.",
+      "Next time, you get to say: let me come back to you on that."
+    ],
+    "end": "Send this to someone who froze today.",
+    "cta": "Have you ever frozen in a meeting?",
+    "hook": "You froze in that meeting today. It's still replaying.",
+    "mood": "comfort",
+    "cast": "a Black man in his 20s with short twists, in a gray crewneck",
+    "setting": "sitting alone in his car in a parking garage after work, staring ahead",
+    "caption": "You froze in that meeting today. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#confidence"
+    ],
+    "scene_files": [
+      "posts/you-froze-in-that-meeting-today/01.jpg",
+      "posts/you-froze-in-that-meeting-today/02.jpg",
+      "posts/you-froze-in-that-meeting-today/03.jpg",
+      "posts/you-froze-in-that-meeting-today/04.jpg",
+      "posts/you-froze-in-that-meeting-today/05.jpg",
+      "posts/you-froze-in-that-meeting-today/06.jpg"
+    ]
+  },
+  {
+    "format": "translator",
+    "topic": "Overtime",
+    "who": "your boss",
+    "says": "We need you to stay late tonight.",
+    "means": [
+      "I didn't plan ahead, and you're the easy yes.",
+      "I assume your time is free."
+    ],
+    "say": [
+      "I can stay until 6. What's the one thing that must be done?",
+      "I have a commitment tonight. I can start early tomorrow.",
+      "If this keeps happening, can we talk about workload?"
+    ],
+    "cta": "How many late nights did you work this month?",
+    "hook": "Dinner's waiting at home. And your boss says 'stay late'.",
+    "mood": "comfort",
+    "cast": "a Pacific Islander woman in her 30s with long wavy black hair, in an olive cardigan",
+    "setting": "an office at dusk, packing her bag as her boss stops at her desk",
+    "caption": "Dinner's waiting at home. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#overtime"
+    ],
+    "scene_files": [
+      "posts/we-need-you-to-stay-late-tonight/01.jpg",
+      "posts/we-need-you-to-stay-late-tonight/02.jpg",
+      "posts/we-need-you-to-stay-late-tonight/03.jpg",
+      "posts/we-need-you-to-stay-late-tonight/04.jpg",
+      "posts/we-need-you-to-stay-late-tonight/05.jpg",
+      "posts/we-need-you-to-stay-late-tonight/06.jpg"
+    ]
+  },
+  {
+    "format": "feel",
+    "topic": "Pricing",
+    "title": "You undercharged again.",
+    "lines": [
+      "Pricing low felt safer than hearing no.",
+      "But every discount teaches them what you're worth.",
+      "Next time, ask what fixing this is worth to them first."
+    ],
+    "end": "Send this to someone who undercharges.",
+    "cta": "What would you charge if you weren't scared?",
+    "hook": "You undercharged again. And you knew it as you said it.",
+    "mood": "comfort",
+    "cast": "a white man in his 40s with a red beard, carpenter in a work apron",
+    "setting": "his workshop, looking at an invoice on his phone with a sigh",
+    "caption": "You undercharged again. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#pricing"
+    ],
+    "scene_files": [
+      "posts/you-undercharged-again/01.jpg",
+      "posts/you-undercharged-again/02.jpg",
+      "posts/you-undercharged-again/03.jpg",
+      "posts/you-undercharged-again/04.jpg",
+      "posts/you-undercharged-again/05.jpg"
+    ],
+    "nepq": true
+  },
+  {
+    "format": "translator",
+    "topic": "Invoices",
+    "who": "the client",
+    "says": "Sorry, payment will be a little late.",
+    "means": [
+      "You're not my priority this week.",
+      "I'll keep pushing if you let me."
+    ],
+    "say": [
+      "Thanks for telling me. What date can I expect it?",
+      "Per our agreement, a late fee applies after 7 days.",
+      "I'll pause new work until the invoice is paid."
+    ],
+    "cta": "Longest you've ever waited to get paid?",
+    "hook": "You did the work. Now you're chasing your own money.",
+    "mood": "comfort",
+    "cast": "a Native American woman in her 30s with a long black braid, photographer",
+    "setting": "her small studio, reading an email on her laptop, camera on the desk",
+    "caption": "You did the work. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#invoices"
+    ],
+    "scene_files": [
+      "posts/sorry-payment-will-be-a-little-late/01.jpg",
+      "posts/sorry-payment-will-be-a-little-late/02.jpg",
+      "posts/sorry-payment-will-be-a-little-late/03.jpg",
+      "posts/sorry-payment-will-be-a-little-late/04.jpg",
+      "posts/sorry-payment-will-be-a-little-late/05.jpg",
+      "posts/sorry-payment-will-be-a-little-late/06.jpg"
+    ]
+  },
+  {
+    "format": "swap",
+    "topic": "Emails",
+    "title": "Stop saying these 3 things in work emails",
+    "pairs": [
+      [
+        "Sorry to bother you...",
+        "Following up on this."
+      ],
+      [
+        "Just checking in.",
+        "Can you confirm by Friday?"
+      ],
+      [
+        "Does that make sense?",
+        "Let me know your questions."
+      ]
+    ],
+    "cta": "Which one do you catch yourself typing?",
+    "hook": "One word in your emails makes you sound less sure.",
+    "mood": "playful",
+    "cast": "an East Asian man in his 30s with round glasses, in a beige sweater",
+    "setting": "typing at a laptop in a bright modern office, coffee beside him",
+    "caption": "One word in your emails makes you sound less sure. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#emails"
+    ],
+    "scene_files": [
+      "posts/stop-saying-these-3-things-in-work-emails/01.jpg",
+      "posts/stop-saying-these-3-things-in-work-emails/02.jpg",
+      "posts/stop-saying-these-3-things-in-work-emails/03.jpg",
+      "posts/stop-saying-these-3-things-in-work-emails/04.jpg",
+      "posts/stop-saying-these-3-things-in-work-emails/05.jpg"
+    ]
+  },
+  {
+    "format": "feel",
+    "topic": "Money talk",
+    "title": "Nobody tells you how lonely asking for money feels.",
+    "lines": [
+      "Raises, rates, invoices. It always feels awkward.",
+      "You were taught being humble means staying quiet.",
+      "But asking is not greedy. It's how fair happens.",
+      "The people who ask get paid. Start asking."
+    ],
+    "end": "Send this to someone who needs to hear it.",
+    "cta": "Who taught you money talk was rude?",
+    "hook": "Nobody tells you how lonely asking for money feels.",
+    "mood": "nostalgia",
+    "cast": "a South Asian woman in her 30s with long dark hair, in a teal kurta top",
+    "setting": "sitting by a rainy window at home with tea, laptop closed",
+    "caption": "Nobody tells you how lonely asking for money feels. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#moneytalk"
+    ],
+    "scene_files": [
+      "posts/nobody-tells-you-how-lonely-asking-for-money-feels/01.jpg",
+      "posts/nobody-tells-you-how-lonely-asking-for-money-feels/02.jpg",
+      "posts/nobody-tells-you-how-lonely-asking-for-money-feels/03.jpg",
+      "posts/nobody-tells-you-how-lonely-asking-for-money-feels/04.jpg",
+      "posts/nobody-tells-you-how-lonely-asking-for-money-feels/05.jpg",
+      "posts/nobody-tells-you-how-lonely-asking-for-money-feels/06.jpg"
+    ]
+  },
+  {
+    "format": "translator",
+    "topic": "Interviews",
+    "who": "the hiring manager",
+    "says": "Do you have any questions for us?",
+    "means": [
+      "Show me you're serious.",
+      "This is your last chance to stand out."
+    ],
+    "say": [
+      "What would make someone great in this role in 90 days?",
+      "What's the biggest challenge your team faces right now?",
+      "Is there anything that makes you hesitate about me?"
+    ],
+    "cta": "What's the best question you've asked in an interview?",
+    "hook": "The interview's ending. And your mind just went blank.",
+    "mood": "uplift",
+    "cast": "a Latina woman in her 20s with curly hair, in a coral blazer",
+    "setting": "an interview across a wooden table, two interviewers smiling politely",
+    "caption": "The interview's ending. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#interviews"
+    ],
+    "scene_files": [
+      "posts/do-you-have-any-questions-for-us/01.jpg",
+      "posts/do-you-have-any-questions-for-us/02.jpg",
+      "posts/do-you-have-any-questions-for-us/03.jpg",
+      "posts/do-you-have-any-questions-for-us/04.jpg",
+      "posts/do-you-have-any-questions-for-us/05.jpg",
+      "posts/do-you-have-any-questions-for-us/06.jpg"
+    ]
+  },
+  {
+    "format": "swap",
+    "topic": "Negotiating",
+    "title": "Stop saying these 3 things when you negotiate a price",
+    "pairs": [
+      [
+        "What's your best price?",
+        "What flexibility do you have on this?"
+      ],
+      [
+        "That's way too much.",
+        "That's above my budget. Help me see the value."
+      ],
+      [
+        "I'll take it.",
+        "If you include X, we have a deal."
+      ]
+    ],
+    "cta": "What's the best deal you ever negotiated?",
+    "hook": "You paid full price again. Because of the first thing you said.",
+    "mood": "playful",
+    "cast": "a Black man in his 40s with a salt and pepper beard, in a navy quarter zip",
+    "setting": "a car dealership desk, a salesperson sliding a paper across",
+    "caption": "You paid full price again. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#negotiating"
+    ],
+    "scene_files": [
+      "posts/stop-saying-these-3-things-when-you-negotiate-a-price/01.jpg",
+      "posts/stop-saying-these-3-things-when-you-negotiate-a-price/02.jpg",
+      "posts/stop-saying-these-3-things-when-you-negotiate-a-price/03.jpg",
+      "posts/stop-saying-these-3-things-when-you-negotiate-a-price/04.jpg",
+      "posts/stop-saying-these-3-things-when-you-negotiate-a-price/05.jpg"
+    ]
+  },
+  {
+    "format": "feel",
+    "topic": "Hard days",
+    "title": "If you cried in your car before work today, read this.",
+    "lines": [
+      "You're not weak. You're carrying a lot.",
+      "Some jobs take more than they give.",
+      "Your worth was never your job title.",
+      "Today you made it in. That counts."
+    ],
+    "end": "Send this to someone having a hard work week.",
+    "cta": "What got you through your worst work week?",
+    "hook": "If you cried in your car before work today, read this.",
+    "mood": "comfort",
+    "cast": "a white woman in her 20s with a messy blonde bun, in a nurse's scrubs",
+    "setting": "sitting in her car in a hospital parking lot at sunrise, hands on the wheel",
+    "caption": "If you cried in your car before work today, read this. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#harddays"
+    ],
+    "scene_files": [
+      "posts/if-you-cried-in-your-car-before-work-today-read-this/01.jpg",
+      "posts/if-you-cried-in-your-car-before-work-today-read-this/02.jpg",
+      "posts/if-you-cried-in-your-car-before-work-today-read-this/03.jpg",
+      "posts/if-you-cried-in-your-car-before-work-today-read-this/04.jpg",
+      "posts/if-you-cried-in-your-car-before-work-today-read-this/05.jpg",
+      "posts/if-you-cried-in-your-car-before-work-today-read-this/06.jpg"
+    ]
+  },
+  {
+    "format": "translator",
+    "topic": "Rent",
+    "who": "your landlord",
+    "says": "Rent is going up next month.",
+    "means": [
+      "I'm testing what you'll accept.",
+      "Moving is a hassle, and I know it."
+    ],
+    "say": [
+      "I've paid on time every month. Can we keep the current rate?",
+      "Would you take a smaller increase for a longer lease?",
+      "I'm comparing places nearby. Is there room to talk?"
+    ],
+    "cta": "How much did your rent go up this year?",
+    "hook": "The rent email came in. Your stomach dropped.",
+    "mood": "comfort",
+    "cast": "a Middle Eastern woman in her 20s with a hijab in soft blue",
+    "setting": "her small apartment kitchen, reading her phone, keys on the counter",
+    "caption": "The rent email came in. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#rent"
+    ],
+    "scene_files": [
+      "posts/rent-is-going-up-next-month/01.jpg",
+      "posts/rent-is-going-up-next-month/02.jpg",
+      "posts/rent-is-going-up-next-month/03.jpg",
+      "posts/rent-is-going-up-next-month/04.jpg",
+      "posts/rent-is-going-up-next-month/05.jpg",
+      "posts/rent-is-going-up-next-month/06.jpg"
+    ]
+  },
+  {
+    "format": "feel",
+    "topic": "Promotions",
+    "title": "They gave the promotion to someone else.",
+    "lines": [
+      "Smiling through it was the hardest work you did all year.",
+      "It's okay to be disappointed.",
+      "Ask them: what would have made it me?",
+      "Then decide if this place still deserves you."
+    ],
+    "end": "Send this to someone who got passed over.",
+    "cta": "Have you ever been passed over?",
+    "hook": "They gave the promotion to someone else. You smiled anyway.",
+    "mood": "comfort",
+    "cast": "an East Asian man in his 40s with short gray hair, in a white shirt and loosened tie",
+    "setting": "clapping at an office celebration for a coworker, his smile not reaching his eyes",
+    "caption": "They gave the promotion to someone else. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#promotions"
+    ],
+    "scene_files": [
+      "posts/they-gave-the-promotion-to-someone-else/01.jpg",
+      "posts/they-gave-the-promotion-to-someone-else/02.jpg",
+      "posts/they-gave-the-promotion-to-someone-else/03.jpg",
+      "posts/they-gave-the-promotion-to-someone-else/04.jpg",
+      "posts/they-gave-the-promotion-to-someone-else/05.jpg",
+      "posts/they-gave-the-promotion-to-someone-else/06.jpg"
+    ]
+  },
+  {
+    "format": "translator",
+    "topic": "Feedback",
+    "who": "your manager",
+    "says": "Let's talk about your performance.",
+    "means": [
+      "I want to fix something before it grows.",
+      "How you react matters as much as the issue."
+    ],
+    "say": [
+      "Thank you. What's the one thing I should change first?",
+      "Can you share an example so I get it right?",
+      "Let's check in again in 2 weeks on my progress."
+    ],
+    "cta": "What's the hardest feedback you ever got?",
+    "hook": "'Can we talk?' And your heart starts racing.",
+    "mood": "comfort",
+    "cast": "a Pacific Islander man in his 30s with a man bun, in a mustard shirt",
+    "setting": "walking into a small meeting room where his manager waits with a notepad",
+    "caption": "'Can we talk?' And your heart starts racing. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#feedback"
+    ],
+    "scene_files": [
+      "posts/let-s-talk-about-your-performance/01.jpg",
+      "posts/let-s-talk-about-your-performance/02.jpg",
+      "posts/let-s-talk-about-your-performance/03.jpg",
+      "posts/let-s-talk-about-your-performance/04.jpg",
+      "posts/let-s-talk-about-your-performance/05.jpg",
+      "posts/let-s-talk-about-your-performance/06.jpg"
+    ]
+  },
+  {
+    "format": "swap",
+    "topic": "Saying no",
+    "title": "Stop saying these 3 things when you say no",
+    "pairs": [
+      [
+        "I'm so sorry, I just can't.",
+        "I can't take this on."
+      ],
+      [
+        "Maybe later?",
+        "Not this month. Ask me in January."
+      ],
+      [
+        "I'll try.",
+        "I won't be able to, but here's who can."
+      ]
+    ],
+    "cta": "What do you wish you'd said no to this week?",
+    "hook": "You said yes again. And now your whole week is gone.",
+    "mood": "playful",
+    "cast": "a Black woman in her 40s with a short natural afro, in a coral dress",
+    "setting": "looking at an overflowing calendar on a wall screen, coffee in hand",
+    "caption": "You said yes again. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#sayingno"
+    ],
+    "scene_files": [
+      "posts/stop-saying-these-3-things-when-you-say-no/01.jpg",
+      "posts/stop-saying-these-3-things-when-you-say-no/02.jpg",
+      "posts/stop-saying-these-3-things-when-you-say-no/03.jpg",
+      "posts/stop-saying-these-3-things-when-you-say-no/04.jpg",
+      "posts/stop-saying-these-3-things-when-you-say-no/05.jpg"
+    ]
+  },
+  {
+    "format": "feel",
+    "topic": "Money talk",
+    "title": "Your parents never talked about money.",
+    "lines": [
+      "No one taught you to negotiate, invoice, or say your price.",
+      "That's not a flaw. It's a gap.",
+      "Gaps can be filled one script at a time."
+    ],
+    "end": "Send this to someone learning money talk late.",
+    "cta": "What money skill do you wish you'd learned younger?",
+    "hook": "Your parents never talked about money. So you never learned how.",
+    "mood": "nostalgia",
+    "cast": "a Latino man in his 30s with a fade haircut, in a gray hoodie",
+    "setting": "at his childhood family dinner table, looking at an old photo",
+    "caption": "Your parents never talked about money. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#moneytalk"
+    ],
+    "scene_files": [
+      "posts/your-parents-never-talked-about-money/01.jpg",
+      "posts/your-parents-never-talked-about-money/02.jpg",
+      "posts/your-parents-never-talked-about-money/03.jpg",
+      "posts/your-parents-never-talked-about-money/04.jpg",
+      "posts/your-parents-never-talked-about-money/05.jpg"
+    ]
+  },
+  {
+    "format": "translator",
+    "topic": "Sales",
+    "who": "the customer",
+    "says": "I found it cheaper somewhere else.",
+    "means": [
+      "I want a reason to choose you.",
+      "Price is the only thing I can compare."
+    ],
+    "say": [
+      "I see. Cheaper for the same thing, or something different?",
+      "Besides price, what would you need to feel sure?",
+      "If price is the only factor, they might be the better choice."
+    ],
+    "cta": "How do you handle 'I found it cheaper'?",
+    "hook": "They found it cheaper. And they want you to match it.",
+    "mood": "playful",
+    "cast": "a South Asian woman in her 40s with a gray streak in her hair, store owner",
+    "setting": "behind the counter of her small boutique, a customer holding up a phone",
+    "caption": "They found it cheaper. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#sales"
+    ],
+    "scene_files": [
+      "posts/i-found-it-cheaper-somewhere-else/01.jpg",
+      "posts/i-found-it-cheaper-somewhere-else/02.jpg",
+      "posts/i-found-it-cheaper-somewhere-else/03.jpg",
+      "posts/i-found-it-cheaper-somewhere-else/04.jpg",
+      "posts/i-found-it-cheaper-somewhere-else/05.jpg",
+      "posts/i-found-it-cheaper-somewhere-else/06.jpg"
+    ],
+    "nepq": true
+  },
+  {
+    "format": "feel",
+    "topic": "Confidence",
+    "title": "The first time you say your price without apologizing.",
+    "lines": [
+      "Your voice might shake. Say it anyway.",
+      "Then ask: how does that sit with you?",
+      "And let them tell you why it fits."
+    ],
+    "end": "Send this to someone quoting a price today.",
+    "cta": "What's your number?",
+    "hook": "The first time you say your price without apologizing...",
+    "mood": "uplift",
+    "cast": "a Native American man in his 30s with short black hair, landscaper",
+    "setting": "standing in a client's front yard with a clipboard, the homeowner listening",
+    "caption": "The first time you say your price without apologizing. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#confidence"
+    ],
+    "scene_files": [
+      "posts/the-first-time-you-say-your-price-without-apologizing/01.jpg",
+      "posts/the-first-time-you-say-your-price-without-apologizing/02.jpg",
+      "posts/the-first-time-you-say-your-price-without-apologizing/03.jpg",
+      "posts/the-first-time-you-say-your-price-without-apologizing/04.jpg",
+      "posts/the-first-time-you-say-your-price-without-apologizing/05.jpg"
+    ],
+    "nepq": true
+  },
+  {
+    "format": "swap",
+    "topic": "Interviews",
+    "title": "Stop saying these 3 things in a job interview",
+    "pairs": [
+      [
+        "I'm a perfectionist.",
+        "I over-check my work, so I set myself deadlines."
+      ],
+      [
+        "I'm a hard worker.",
+        "I grew sales 30 percent by fixing our follow up."
+      ],
+      [
+        "Whatever you think is fair.",
+        "Based on the role, I'm looking for X."
+      ]
+    ],
+    "cta": "What's the worst interview answer you've heard?",
+    "hook": "You nailed the interview. Then one answer gave it away.",
+    "mood": "playful",
+    "cast": "a white man in his 20s with curly brown hair, in a navy suit",
+    "setting": "a waiting room outside an interview, adjusting his tie",
+    "caption": "You nailed the interview. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#interviews"
+    ],
+    "scene_files": [
+      "posts/stop-saying-these-3-things-in-a-job-interview/01.jpg",
+      "posts/stop-saying-these-3-things-in-a-job-interview/02.jpg",
+      "posts/stop-saying-these-3-things-in-a-job-interview/03.jpg",
+      "posts/stop-saying-these-3-things-in-a-job-interview/04.jpg",
+      "posts/stop-saying-these-3-things-in-a-job-interview/05.jpg"
+    ]
+  },
+  {
+    "format": "feel",
+    "topic": "Asking",
+    "title": "Every time you didn't ask, you paid for it quietly.",
+    "lines": [
+      "The raise you didn't request.",
+      "The rate you didn't raise.",
+      "The no you didn't say.",
+      "Start with one ask this week."
+    ],
+    "end": "Send this to someone who needs to ask.",
+    "cta": "What's one thing you'll ask for this week?",
+    "hook": "Every time you didn't ask, you paid for it quietly.",
+    "mood": "uplift",
+    "cast": "a Black woman in her 30s with a sleek ponytail, in a cream blazer",
+    "setting": "walking confidently down a city sidewalk in the morning, coffee in hand",
+    "caption": "Every time you didn't ask, you paid for it quietly. 💬",
+    "tags": [
+      "#careeradvice",
+      "#worklife",
+      "#salarynegotiation",
+      "#asking"
+    ],
+    "scene_files": [
+      "posts/every-time-you-didn-t-ask-you-paid-for-it-quietly/01.jpg",
+      "posts/every-time-you-didn-t-ask-you-paid-for-it-quietly/02.jpg",
+      "posts/every-time-you-didn-t-ask-you-paid-for-it-quietly/03.jpg",
+      "posts/every-time-you-didn-t-ask-you-paid-for-it-quietly/04.jpg",
+      "posts/every-time-you-didn-t-ask-you-paid-for-it-quietly/05.jpg",
+      "posts/every-time-you-didn-t-ask-you-paid-for-it-quietly/06.jpg"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+name: Check post status (data/check.json)
+
+on:
+  workflow_dispatch:
+  push:
+    paths: ["data/check.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -q pillow numpy scipy edge-tts
+      - name: Check
+        env:
+          BLOTATO_API_KEY: ${{ secrets.BLOTATO_API_KEY }}
+        run: python engine/check_status.py
+      - name: Save
+        run: |
+          git config user.name "status-bot"
+          git config user.email "status-bot@users.noreply.github.com"
+          git add data/status-check.json data/facebook-accounts.json
+          git diff --cached --quiet || git commit -m "Status check"
+          git pull --rebase -q && git push

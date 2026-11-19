@@ -1,0 +1,104 @@
+{
+  "timezone": "America/Chicago",
+  "post_times": [
+    "07:30",
+    "12:15",
+    "20:00"
+  ],
+  "ramp": [
+    {
+      "until": "LAUNCH+6",
+      "post_times": [
+        "20:00"
+      ],
+      "note": "week 1: new account, 1 post a day"
+    },
+    {
+      "until": "LAUNCH+13",
+      "post_times": [
+        "12:15",
+        "20:00"
+      ],
+      "note": "week 2: 2 posts a day"
+    }
+  ],
+  "slot_themes": {
+    "07:30": "commute: raises, salary, interviews, job hunting, money mindset to start the day",
+    "12:15": "lunch break: coworkers, bosses, meetings, emails, saying no, boundaries",
+    "20:00": "evening: freelancing, pricing, clients, invoices, sales objections, rent, and reassurance after a hard work day"
+  },
+  "claude_model": "claude-sonnet-5-5",
+  "tiktok": {
+    "privacy": "PUBLIC_TO_EVERYONE",
+    "ai_label": true,
+    "save_as_draft_instead": false,
+    "account_id": "",
+    "draft_slots": [
+      "07:30"
+    ],
+    "draft_note": "This slot's TikTok copy goes to Jacob's TikTok drafts with no music, so he can add a trending sound and post it. Instagram and Facebook still post automatically.",
+    "handle": "saythis.instead"
+  },
+  "promo": {
+    "enabled": false,
+    "every_nth_post": 4,
+    "footer": "75 scripts like this: link in bio",
+    "footer_voice": "Want seventy five more scripts like this? The link is in my bio.",
+    "caption_add": "Get all 75 scripts at the link in bio.",
+    "note": "Video footer and TikTok caption line. Turn on once TikTok allows a bio link (1,000 followers)."
+  },
+  "instagram": {
+    "enabled": true,
+    "handle": "saythis.instead",
+    "account_id": "",
+    "caption_add": "💬 Comment PLAYBOOK and I'll DM you 75 scripts for raises, pricing and hard work talks.",
+    "trial_formats": [],
+    "trial_note": "Trial Reels off until the account meets Instagram's follower minimum (Lunar's trial failed 2026-11-11). To turn back on: trial_formats [\"feel\"]."
+  },
+  "engagement": {
+    "store_url": "",
+    "dm_keyword": "PLAYBOOK",
+    "dm_message": "Here you go! 💬 75 word-for-word scripts for raises, salary, pricing, clients, bosses and sales objections. Tap below to get the Say This Instead Playbook:",
+    "dm_button": "Get the Playbook",
+    "dm_public_replies": [
+      "Sent! Check your DMs 💬",
+      "Just sent it to your inbox!",
+      "On its way to your DMs 🙌"
+    ],
+    "draft_replies_daily": true,
+    "first_comment": "Send this to someone who needs these words this week 💬"
+  },
+  "voice": {
+    "provider_note": "ElevenLabs is used when the ELEVENLABS_API_KEY secret and eleven_voice_id are both set; otherwise the free edge voice.",
+    "eleven_voice_id": "EST9Ui6982FZPSi7gCHi",
+    "eleven_model": "eleven_multilingual_v2",
+    "eleven_settings": {
+      "stability": 0.45,
+      "similarity_boost": 0.8,
+      "style": 0.25,
+      "use_speaker_boost": true
+    },
+    "edge_voice": "en-US-AvaNeural"
+  },
+  "facebook": {
+    "enabled": false,
+    "account_id": "",
+    "page_id": "",
+    "page_name": "Say This Instead",
+    "caption_add": "💬 75 word-for-word scripts for raises, pricing and hard work talks: link on our Page."
+  },
+  "day_overrides": {
+    "note": "Publish-time changes by weekday (Monday=0 ... Saturday=5). The slot keeps its content; only the posting time moves.",
+    "5": {
+      "07:30": "09:00"
+    }
+  },
+  "movie_mode": false,
+  "movie_note": "Off for this page: still pictures with a slow push-in. Turn on once the page shows traction.",
+  "carousel_slots": [
+    "12:15"
+  ],
+  "carousel_note": "This slot posts a swipeable carousel (every card as a photo) on TikTok, Instagram and Facebook instead of a video.",
+  "ramp_note": "Run engine/assign_slots.py with the launch date once the accounts exist; it writes real dates into ramp and the queue.",
+  "brand": "Say This Instead"
+}

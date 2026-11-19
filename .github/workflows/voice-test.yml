@@ -1,0 +1,35 @@
+name: Voice test (no posting)
+
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/voice-test-trigger"]
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q pillow numpy edge-tts
+      - name: Render one video with ElevenLabs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python engine/voice_test.py
+      - name: Save the result
+        run: |
+          git config user.name "sti-bot"
+          git config user.email "sti-bot@users.noreply.github.com"
+          mkdir -p tests && cp out/voice-test.mp4 tests/voice-test.mp4 2>/dev/null || true
+          git add data/voice-test.json tests
+          git diff --cached --quiet || git commit -m "Voice test result"
+          git pull --rebase -q && git push

@@ -1,0 +1,50 @@
+name: Post one script now
+
+on:
+  workflow_dispatch:
+    inputs:
+      says:
+        description: 'The 'says' line or title, exactly as in the queue (e.g. Can you do it cheaper?)'
+        required: true
+      platform:
+        description: "instagram, tiktok or both"
+        default: "instagram"
+
+permissions:
+  contents: write
+
+concurrency: sti-daily
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q pillow numpy edge-tts
+      - name: Render and post
+        env:
+          BLOTATO_API_KEY: ${{ secrets.BLOTATO_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          SAYS: ${{ github.event.inputs.says }}
+          PLATFORM: ${{ github.event.inputs.platform }}
+        run: python engine/post_now.py --says "$SAYS" --platform "$PLATFORM"
+      - name: Keep the video (14 days)
+        uses: actions/upload-artifact@v4
+        with:
+          name: post-now-${{ github.run_number }}
+          path: out/*.mp4
+          retention-days: 14
+      - name: Save the log
+        run: |
+          git config user.name "sti-bot"
+          git config user.email "sti-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Manual post $(date -u +%F)"
+          git pull --rebase -q && git push
