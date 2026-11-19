@@ -116,51 +116,50 @@ def build_caption(p, seed, promo_add="", platform="tiktok"):
 
 
 def post_carousel(cfg, p, day, slot, seed, caption, tz, dry, rows):
-    """Carousel slot: the post's cards as swipe-style slides in a video with music that fits the post's mood,
-    on TikTok, Instagram and Facebook. (Real photo carousels sent through the API go out silent.)"""
-    from make_video import make_carousel, emotional_track
-    import slideshow
+    """Carousel slot: real swipeable photo carousels, posted by hand with a sound.
+    TikTok: the slides go to the TikTok inbox as a draft. Instagram has no drafts through its API, so the slides
+    and captions come to Jacob's phone (ntfy) at post time. Facebook: posts the carousel automatically."""
+    from make_video import make_carousel
     folder = os.path.join(OUT, f"{day}_{slot.replace(':', '')}_carousel")
     tall, crops = make_carousel(dict(p), folder, seed)
-    music = emotional_track(p, seed)
-    path = os.path.join(OUT, f"{day}_{slot.replace(':', '')}_carousel.mp4")
-    slideshow.make(tall, music, path)
     row = {"date": day, "time_ct": slot, "format": "carousel", "topic": p["topic"], "hook": hook_of(p),
-           "caption": caption, "file": os.path.basename(path), "submission_id": "", "status": "rendered",
+           "caption": caption, "file": os.path.basename(folder), "submission_id": "", "status": "rendered",
            "url": "", "source": p["source"]}
     if not dry:
-        from publish import upload, schedule, schedule_instagram, schedule_facebook
+        from publish import upload, schedule_carousel
+        from notify import carousel_kit
         when = dt.datetime.fromisoformat(f"{day}T{publish_time(cfg, day, slot)}").replace(tzinfo=tz).astimezone(dt.timezone.utc)
         when_s = when.strftime("%Y-%m-%dT%H:%M:%SZ")
-        media = None
+        title = hook_of(p)
         try:
-            media = upload(path)
-            row["submission_id"] = schedule(path, caption, when_s, cfg, False, media_url=media)
-            row["status"] = "scheduled"
+            urls = [upload(x) for x in tall]
+            row["submission_id"] = schedule_carousel("tiktok", urls, caption, when_s, cfg, title=title, draft=True)
+            row["status"] = "draft sent"
         except SystemExit as e:
             row["status"] = f"error: {e}"[:200]
         except Exception as e:
             row["status"] = f"error: {str(e)[:150]}"
+        try:
+            curls = [upload(x) for x in crops]
+        except Exception as e:
+            curls = []
+            row["ig_status"] = f"error: {str(e)[:150]}"
         ig, fb = cfg.get("instagram", {}), cfg.get("facebook", {})
-        if ig.get("enabled") and media:
+        if ig.get("enabled") and curls:
+            ig_cap = build_caption(p, seed, ig.get("caption_add", ""), platform="instagram")
+            carousel_kit("Say This Instead", when, caption, ig_cap, curls)
+            row["ig_status"] = "sent to phone"
+        if fb.get("enabled") and curls:
             try:
-                row["ig_submission_id"] = schedule_instagram(
-                    media, build_caption(p, seed, ig.get("caption_add", ""), platform="instagram"),
-                    when_s, cfg, first_comment=first_comment(cfg))
-                row["ig_status"] = "scheduled"
-            except Exception as e:
-                row["ig_status"] = f"error: {str(e)[:150]}"
-        if fb.get("enabled") and media:
-            try:
-                row["fb_submission_id"] = schedule_facebook(
-                    media, build_caption(p, seed, fb.get("caption_add", ""), platform="facebook"),
-                    when_s, cfg, first_comment=first_comment(cfg))
+                row["fb_submission_id"] = schedule_carousel(
+                    "facebook", curls, build_caption(p, seed, fb.get("caption_add", ""), platform="facebook"),
+                    when_s, cfg, title=title, first_comment=first_comment(cfg))
                 row["fb_status"] = "scheduled"
             except Exception as e:
                 row["fb_status"] = f"error: {str(e)[:150]}"
     rows.append(row)
-    print(slot, "carousel video | music:", os.path.basename(music or "none"), "| tiktok:", row["status"],
-          "| ig:", row.get("ig_status") or "off", "| fb:", row.get("fb_status") or "off")
+    print(slot, "carousel | tiktok:", row["status"], "| ig:", row.get("ig_status") or "off",
+          "| fb:", row.get("fb_status") or "off")
 
 
 def first_comment(cfg):

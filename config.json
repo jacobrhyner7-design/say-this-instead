@@ -33,10 +33,8 @@
     "ai_label": true,
     "save_as_draft_instead": false,
     "account_id": "70149",
-    "draft_slots": [
-      "07:30"
-    ],
-    "draft_note": "This slot's TikTok copy goes to Jacob's TikTok drafts with no music, so he can add a trending sound and post it. Instagram and Facebook still post automatically.",
+    "draft_slots": [],
+    "draft_note": "The morning slot is a carousel posted by hand: TikTok gets the slides as a draft in the inbox, and the Instagram slides plus both captions come to the ntfy app at post time. Add a sound in each app and post.",
     "handle": "saythis.instead",
     "draft_notify_topic": "jacob-drafts-4bb84b79e177"
   },
@@ -97,7 +95,7 @@
   "movie_mode": false,
   "movie_note": "Off for this page: still pictures with a slow push-in. Turn on once the page shows traction.",
   "carousel_slots": [
-    "12:15"
+    "07:30"
   ],
   "carousel_note": "This slot posts a swipeable carousel (every card as a photo) on TikTok, Instagram and Facebook instead of a video.",
   "ramp_note": "Run engine/assign_slots.py with the launch date once the accounts exist; it writes real dates into ramp and the queue.",

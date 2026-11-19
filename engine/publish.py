@@ -103,8 +103,9 @@ def schedule_facebook(media_url, caption, when_utc_iso, cfg, first_comment=None)
     return _call("POST", "/posts", body)["postSubmissionId"]
 
 
-def schedule_carousel(platform, image_urls, caption, when_utc_iso, cfg, title="", first_comment=None):
-    """A swipeable photo post (TikTok photo mode, Instagram carousel, Facebook multi-photo post)."""
+def schedule_carousel(platform, image_urls, caption, when_utc_iso, cfg, title="", first_comment=None, draft=False):
+    """A swipeable photo post (TikTok photo mode, Instagram carousel, Facebook multi-photo post).
+    draft=True (TikTok): goes to the TikTok inbox as a draft, so a sound can be added in the app before posting."""
     if platform == "tiktok":
         t = cfg["tiktok"]
         acct = t.get("account_id") or tiktok_account_id()
@@ -112,6 +113,9 @@ def schedule_carousel(platform, image_urls, caption, when_utc_iso, cfg, title=""
                   "disabledDuet": False, "disabledStitch": False, "isBrandedContent": False, "isYourBrand": False,
                   "isAiGenerated": bool(t["ai_label"]), "title": title[:90], "autoAddMusic": True,
                   "imageCoverIndex": 0}
+        if draft:
+            target["isDraft"] = True
+            target["autoAddMusic"] = False
     elif platform == "instagram":
         ig = cfg["instagram"]
         acct = ig.get("account_id") or account_by_handle("instagram", ig["handle"])
