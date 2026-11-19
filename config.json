@@ -34,7 +34,7 @@
     "save_as_draft_instead": false,
     "account_id": "70149",
     "draft_slots": [],
-    "draft_note": "The morning slot is a carousel posted by hand: TikTok gets the slides as a draft in the inbox, and the Instagram slides plus both captions come to the ntfy app at post time. Add a sound in each app and post.",
+    "draft_note": "Every slot posts a video automatically. Morning manual carousels (TikTok draft plus Instagram kit to the ntfy app) are built: set carousel_slots to the morning time to turn them on once ntfy is set up.",
     "handle": "saythis.instead",
     "draft_notify_topic": "jacob-drafts-4bb84b79e177"
   },
@@ -94,9 +94,7 @@
   },
   "movie_mode": false,
   "movie_note": "Off for this page: still pictures with a slow push-in. Turn on once the page shows traction.",
-  "carousel_slots": [
-    "07:30"
-  ],
+  "carousel_slots": [],
   "carousel_note": "This slot posts a swipeable carousel (every card as a photo) on TikTok, Instagram and Facebook instead of a video.",
   "ramp_note": "Run engine/assign_slots.py with the launch date once the accounts exist; it writes real dates into ramp and the queue.",
   "brand": "Say This Instead",
