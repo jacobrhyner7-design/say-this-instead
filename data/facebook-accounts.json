@@ -1,0 +1,79 @@
+{
+  "all_accounts": {
+    "items": [
+      {
+        "id": "65338",
+        "platform": "facebook",
+        "username": "",
+        "fullname": "Jake Rhyner"
+      },
+      {
+        "id": "87771",
+        "platform": "instagram",
+        "username": "saythis.instead",
+        "fullname": ""
+      },
+      {
+        "id": "84402",
+        "platform": "instagram",
+        "username": "toddlertranslator.co",
+        "fullname": ""
+      },
+      {
+        "id": "84640",
+        "platform": "instagram",
+        "username": "lunar.scripts",
+        "fullname": ""
+      },
+      {
+        "id": "67673",
+        "platform": "tiktok",
+        "username": "lunarscripts.co",
+        "fullname": ""
+      },
+      {
+        "id": "67884",
+        "platform": "tiktok",
+        "username": "littlemoonbeam.co",
+        "fullname": ""
+      },
+      {
+        "id": "70149",
+        "platform": "tiktok",
+        "username": "saythis.instead",
+        "fullname": ""
+      }
+    ]
+  },
+  "accounts": {
+    "items": [
+      {
+        "id": "65338",
+        "platform": "facebook",
+        "username": "",
+        "fullname": "Jake Rhyner"
+      }
+    ]
+  },
+  "pages": {
+    "65338": {
+      "items": [
+        {
+          "accountId": "65338",
+          "id": "1472066402653754",
+          "name": "Say This Instead"
+        },
+        {
+          "accountId": "65338",
+          "id": "1406190002584824",
+          "name": "Lunar Money Affirmations"
+        },
+        {
+          "accountId": "65338",
+          "id": "1384035224802172",
+          "name": "Toddler Translator"
+        }
+      ]
+    }
+  }
+}
