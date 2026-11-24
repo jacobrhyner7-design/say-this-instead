@@ -98,9 +98,11 @@
   "movie_mode": false,
   "movie_note": "Off for this page: still pictures with a slow push-in. Turn on once the page shows traction.",
   "carousel_slots": [
-    "07:30"
+    "07:30",
+    "12:15",
+    "20:00"
   ],
-  "carousel_note": "This slot posts a swipeable carousel (every card as a photo) on TikTok, Instagram and Facebook instead of a video.",
+  "carousel_note": "To start, every slot posts a swipeable carousel (no videos): TikTok slides go to the inbox as a draft and the Instagram slides plus captions come to the ntfy app at post time (posted by hand with a sound); Facebook posts automatically.",
   "ramp_note": "Run engine/assign_slots.py with the launch date once the accounts exist; it writes real dates into ramp and the queue.",
   "brand": "Say This Instead",
   "launch_date": "2026-11-24"
