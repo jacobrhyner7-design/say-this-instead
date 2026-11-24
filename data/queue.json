@@ -226,28 +226,28 @@
  },
  {
   "format": "swap",
-  "topic": "Emails",
-  "title": "Stop saying these 3 things in work emails",
+  "topic": "Messages",
+  "title": "Stop saying these 3 things in work messages",
   "pairs": [
    [
-    "Sorry to bother you...",
-    "Following up on the note below."
+    "Sorry to bug you!",
+    "Quick question on the Q4 deck:"
    ],
    [
-    "Just checking in.",
-    "Can you confirm by Friday at noon?"
+    "Just checking in on this.",
+    "Can you confirm by 3pm today?"
    ],
    [
-    "Does that make sense?",
-    "Happy to answer any questions."
+    "No worries if not!",
+    "Let me know by Friday so I can plan."
    ]
   ],
   "cta": "Which one do you type the most? 1, 2 or 3?",
-  "hook": "These 3 email lines make you sound unsure.",
+  "hook": "These 3 lines make your Slack messages sound unsure.",
   "mood": "playful",
-  "cast": "an East Asian man in his 30s with round glasses, in a beige sweater",
-  "setting": "typing at a laptop in a bright modern office, coffee beside him",
-  "caption": "Save this and fix your next email in 10 seconds. 💬",
+  "cast": "an East Asian woman in her 30s with a short bob, in an oversized cream sweater",
+  "setting": "at her kitchen table working from home, a laptop open to a team chat app, a mug beside her",
+  "caption": "Save this and fix your next Slack or Teams message in 10 seconds. 💬",
   "tags": [
    "#careeradvice",
    "#worklife",
@@ -255,36 +255,36 @@
    "#emails"
   ],
   "scene_files": [
-   "posts/stop-saying-these-3-things-in-work-emails/01.jpg",
-   "posts/stop-saying-these-3-things-in-work-emails/02.jpg",
-   "posts/stop-saying-these-3-things-in-work-emails/03.jpg",
-   "posts/stop-saying-these-3-things-in-work-emails/04.jpg",
-   "posts/stop-saying-these-3-things-in-work-emails/05.jpg"
+   "posts/stop-saying-these-3-things-in-work-emails-remote/01.jpg",
+   "posts/stop-saying-these-3-things-in-work-emails-remote/02.jpg",
+   "posts/stop-saying-these-3-things-in-work-emails-remote/03.jpg",
+   "posts/stop-saying-these-3-things-in-work-emails-remote/04.jpg",
+   "posts/stop-saying-these-3-things-in-work-emails-remote/05.jpg"
   ],
   "date": "2026-11-30",
   "time": "20:00",
-  "footer": "Save this for your next email"
+  "footer": "Save this for your next message"
  },
  {
   "format": "translator",
   "topic": "Boundaries",
   "who": "a coworker",
-  "says": "Can you just quickly help me with this?",
+  "says": "Hey, can you hop on real quick and help with this?",
   "means": [
    "I'm handing you my work.",
    "I'm counting on you not saying no."
   ],
   "say": [
-   "I can't today, but I can show you where to start.",
+   "I'm logging off now, but I can help at 10 tomorrow.",
    "Happy to after I finish mine. Does Thursday work?",
    "Which of my tasks should I drop to take this on?"
   ],
   "cta": "Who's the coworker who always needs a quick favor?",
-  "hook": "It's 4:55 and here comes the 'quick favor'. Say this.",
+  "hook": "4:55. Then the 'quick' ping. Say this.",
   "mood": "playful",
   "cast": "a Latino man in his 40s with glasses, in a coral polo",
-  "setting": "an open office at the end of the day, a coworker leaning over his desk with a stack of papers",
-  "caption": "Save this for the next 4:55 favor. 3 polite ways to protect your time. 💬",
+  "setting": "his home office at dusk, about to close his laptop as a chat message pops up on the screen",
+  "caption": "Save this for the next 4:55 ping. 3 polite ways to log off on time. 💬",
   "tags": [
    "#careeradvice",
    "#worklife",
@@ -292,12 +292,12 @@
    "#boundaries"
   ],
   "scene_files": [
-   "posts/can-you-just-quickly-help-me-with-this/01.jpg",
-   "posts/can-you-just-quickly-help-me-with-this/02.jpg",
-   "posts/can-you-just-quickly-help-me-with-this/03.jpg",
-   "posts/can-you-just-quickly-help-me-with-this/04.jpg",
-   "posts/can-you-just-quickly-help-me-with-this/05.jpg",
-   "posts/can-you-just-quickly-help-me-with-this/06.jpg"
+   "posts/can-you-just-quickly-help-me-with-this-remote/01.jpg",
+   "posts/can-you-just-quickly-help-me-with-this-remote/02.jpg",
+   "posts/can-you-just-quickly-help-me-with-this-remote/03.jpg",
+   "posts/can-you-just-quickly-help-me-with-this-remote/04.jpg",
+   "posts/can-you-just-quickly-help-me-with-this-remote/05.jpg",
+   "posts/can-you-just-quickly-help-me-with-this-remote/06.jpg"
   ],
   "date": "2026-12-01",
   "time": "12:15",
@@ -422,22 +422,22 @@
   "format": "translator",
   "topic": "Overtime",
   "who": "your boss",
-  "says": "We need you to stay late tonight.",
+  "says": "Can you hop back online tonight?",
   "means": [
    "I didn't plan ahead, and you're the easy yes.",
-   "I assume your time is free."
+   "I assume working from home means always on."
   ],
   "say": [
-   "I can stay until 6. What's the one thing that must be done?",
-   "I have a commitment tonight. I can start early tomorrow.",
-   "If this keeps happening, can we talk about workload?"
+   "I'm offline for the night. I'll start on it first thing.",
+   "If it's urgent, what's the one piece that can't wait?",
+   "Can we agree on a cutoff time for after-hours messages?"
   ],
-  "cta": "How many late nights did you work this month?",
-  "hook": "Your boss says 'stay late tonight.' Say this instead.",
+  "cta": "Do you answer work messages after 7? Yes or no?",
+  "hook": "8pm. Then the ping. Say this.",
   "mood": "comfort",
   "cast": "a Pacific Islander woman in her 30s with long wavy black hair, in an olive cardigan",
-  "setting": "an office at dusk, packing her bag as her boss stops at her desk",
-  "caption": "Save this for the next 'stay late' ask. 3 calm ways to protect your evening. 💬",
+  "setting": "her living room couch at night, her phone lighting up with a work message, dinner plates on the table",
+  "caption": "Save this for the next after-hours ping. Working from home doesn't mean always on. 💬",
   "tags": [
    "#careeradvice",
    "#worklife",
@@ -445,16 +445,16 @@
    "#overtime"
   ],
   "scene_files": [
-   "posts/we-need-you-to-stay-late-tonight/01.jpg",
-   "posts/we-need-you-to-stay-late-tonight/02.jpg",
-   "posts/we-need-you-to-stay-late-tonight/03.jpg",
-   "posts/we-need-you-to-stay-late-tonight/04.jpg",
-   "posts/we-need-you-to-stay-late-tonight/05.jpg",
-   "posts/we-need-you-to-stay-late-tonight/06.jpg"
+   "posts/we-need-you-to-stay-late-tonight-remote/01.jpg",
+   "posts/we-need-you-to-stay-late-tonight-remote/02.jpg",
+   "posts/we-need-you-to-stay-late-tonight-remote/03.jpg",
+   "posts/we-need-you-to-stay-late-tonight-remote/04.jpg",
+   "posts/we-need-you-to-stay-late-tonight-remote/05.jpg",
+   "posts/we-need-you-to-stay-late-tonight-remote/06.jpg"
   ],
   "date": "2026-12-03",
   "time": "12:15",
-  "footer": "Save this for the next late night"
+  "footer": "Save this for the next late ping"
  },
  {
   "format": "feel",
@@ -509,7 +509,7 @@
   "hook": "The client says payment will be late. Say this.",
   "mood": "comfort",
   "cast": "a Native American woman in her 30s with a long black braid, photographer",
-  "setting": "her small studio, reading an email on her laptop, camera on the desk",
+  "setting": "her home office, reading an email from a client on her laptop, an unpaid invoice open beside it",
   "caption": "Save this for the next late payment. 3 firm, polite replies that get you paid. 💬",
   "tags": [
    "#careeradvice",
@@ -518,12 +518,12 @@
    "#invoices"
   ],
   "scene_files": [
-   "posts/sorry-payment-will-be-a-little-late/01.jpg",
-   "posts/sorry-payment-will-be-a-little-late/02.jpg",
-   "posts/sorry-payment-will-be-a-little-late/03.jpg",
-   "posts/sorry-payment-will-be-a-little-late/04.jpg",
-   "posts/sorry-payment-will-be-a-little-late/05.jpg",
-   "posts/sorry-payment-will-be-a-little-late/06.jpg"
+   "posts/sorry-payment-will-be-a-little-late-remote/01.jpg",
+   "posts/sorry-payment-will-be-a-little-late-remote/02.jpg",
+   "posts/sorry-payment-will-be-a-little-late-remote/03.jpg",
+   "posts/sorry-payment-will-be-a-little-late-remote/04.jpg",
+   "posts/sorry-payment-will-be-a-little-late-remote/05.jpg",
+   "posts/sorry-payment-will-be-a-little-late-remote/06.jpg"
   ],
   "date": "2026-12-04",
   "time": "12:15",
@@ -585,11 +585,11 @@
    "Is there anything that makes you hesitate about me?"
   ],
   "cta": "What's the best question you've asked in an interview?",
-  "hook": "'Any questions for us?' Ask one of these.",
+  "hook": "The video interview is ending. And your mind just went blank.",
   "mood": "uplift",
   "cast": "a Latina woman in her 20s with curly hair, in a coral blazer",
-  "setting": "an interview across a wooden table, two interviewers smiling politely",
-  "caption": "Save this for your next interview. 3 questions that make you stand out at the end. 💬",
+  "setting": "a video job interview at home, her laptop propped on books, two interviewers smiling politely on the screen",
+  "caption": "Save this for your next interview, on video or in person. 3 questions that make you stand out. 💬",
   "tags": [
    "#careeradvice",
    "#worklife",
@@ -597,12 +597,12 @@
    "#interviews"
   ],
   "scene_files": [
-   "posts/do-you-have-any-questions-for-us/01.jpg",
-   "posts/do-you-have-any-questions-for-us/02.jpg",
-   "posts/do-you-have-any-questions-for-us/03.jpg",
-   "posts/do-you-have-any-questions-for-us/04.jpg",
-   "posts/do-you-have-any-questions-for-us/05.jpg",
-   "posts/do-you-have-any-questions-for-us/06.jpg"
+   "posts/do-you-have-any-questions-for-us-remote/01.jpg",
+   "posts/do-you-have-any-questions-for-us-remote/02.jpg",
+   "posts/do-you-have-any-questions-for-us-remote/03.jpg",
+   "posts/do-you-have-any-questions-for-us-remote/04.jpg",
+   "posts/do-you-have-any-questions-for-us-remote/05.jpg",
+   "posts/do-you-have-any-questions-for-us-remote/06.jpg"
   ],
   "date": "2026-12-05",
   "time": "12:15",
@@ -726,22 +726,22 @@
   "format": "translator",
   "topic": "Feedback",
   "who": "your manager",
-  "says": "Let's talk about your performance.",
+  "says": "Can we hop on a quick call?",
   "means": [
-   "I want to fix something before it grows.",
-   "How you react matters as much as the issue."
+   "I want to talk something through, not end your job.",
+   "How you show up matters as much as the topic."
   ],
   "say": [
-   "Thank you. What's the one thing I should change first?",
-   "Can you share an example so I get it right?",
-   "Let's check in again in 2 weeks on my progress."
+   "Sure. Anything I should prep so we use the time well?",
+   "Thanks for the feedback. What's the one thing to change first?",
+   "Can we check in again in 2 weeks on my progress?"
   ],
   "cta": "What's the hardest feedback you ever got?",
-  "hook": "'Let's talk about your performance.' Say this.",
+  "hook": "A 'quick call' invite. No agenda. Your heart starts racing.",
   "mood": "comfort",
   "cast": "a Pacific Islander man in his 30s with a man bun, in a mustard shirt",
-  "setting": "walking into a small meeting room where his manager waits with a notepad",
-  "caption": "Save this for your next review. 3 replies that turn feedback into a raise case. 💬",
+  "setting": "his home office, staring at a calendar invite with no agenda on his laptop, headphones around his neck",
+  "caption": "Save this for the next no-agenda 'quick call'. 3 calm replies that turn feedback into progress. 💬",
   "tags": [
    "#careeradvice",
    "#worklife",
@@ -749,12 +749,12 @@
    "#feedback"
   ],
   "scene_files": [
-   "posts/let-s-talk-about-your-performance/01.jpg",
-   "posts/let-s-talk-about-your-performance/02.jpg",
-   "posts/let-s-talk-about-your-performance/03.jpg",
-   "posts/let-s-talk-about-your-performance/04.jpg",
-   "posts/let-s-talk-about-your-performance/05.jpg",
-   "posts/let-s-talk-about-your-performance/06.jpg"
+   "posts/let-s-talk-about-your-performance-remote/01.jpg",
+   "posts/let-s-talk-about-your-performance-remote/02.jpg",
+   "posts/let-s-talk-about-your-performance-remote/03.jpg",
+   "posts/let-s-talk-about-your-performance-remote/04.jpg",
+   "posts/let-s-talk-about-your-performance-remote/05.jpg",
+   "posts/let-s-talk-about-your-performance-remote/06.jpg"
   ],
   "date": "2026-12-07",
   "time": "12:15",
