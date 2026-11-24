@@ -1,40 +1,5 @@
 [
  {
-  "format": "feel",
-  "topic": "Confidence",
-  "title": "You froze in that meeting today.",
-  "lines": [
-   "Freezing isn't a skill problem. Your brain just needed 3 more seconds.",
-   "Buy them: \"Good question. Let me think about that for a second.\"",
-   "Still blank? \"Let me check my numbers and send them to you by 3.\"",
-   "Then follow up first. That's what people remember."
-  ],
-  "end": "Send this to someone who froze today.",
-  "cta": "Have you ever frozen in a meeting? Yes or no?",
-  "hook": "You froze in that meeting. Here's what to say next time.",
-  "mood": "comfort",
-  "cast": "a Black man in his 20s with short twists, in a gray crewneck",
-  "setting": "sitting alone in his car in a parking garage after work, staring ahead",
-  "caption": "Save this for the next time your mind goes blank in a meeting. 💬",
-  "tags": [
-   "#careeradvice",
-   "#worklife",
-   "#salarynegotiation",
-   "#confidence"
-  ],
-  "scene_files": [
-   "posts/you-froze-in-that-meeting-today/01.jpg",
-   "posts/you-froze-in-that-meeting-today/02.jpg",
-   "posts/you-froze-in-that-meeting-today/03.jpg",
-   "posts/you-froze-in-that-meeting-today/04.jpg",
-   "posts/you-froze-in-that-meeting-today/05.jpg",
-   "posts/you-froze-in-that-meeting-today/06.jpg"
-  ],
-  "date": "2026-11-24",
-  "time": "20:00",
-  "footer": "Save this for your next big meeting"
- },
- {
   "format": "translator",
   "topic": "Raises",
   "who": "your boss",
