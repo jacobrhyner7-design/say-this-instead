@@ -51,6 +51,12 @@ No advice in the hook. Examples: "You finally asked for the raise. And got the b
 Every hook pulls one trigger: being underpaid, being overlooked, freezing, guilt about asking, fear of losing the job
 or client, or quiet pride. If a hook would not make someone's stomach drop a little, rewrite it.
 
+MUCH OF THE AUDIENCE WORKS REMOTELY OR HYBRID. Set at least 1 in 3 posts in remote work: video calls (camera on or
+off, the frozen screen, being talked over on Zoom or Teams), Slack or Teams DMs and pings, after-hours messages,
+async email, the home office or kitchen table, being invisible to a manager who never sees you. Where a script could
+be typed, write it so it works as a chat message too. Settings and pictures must match: a remote post shows the
+person at home on a laptop or call, never in an office meeting room.
+
 THIS PAGE POSTS CAROUSELS (swipeable slides, one card per slide), so write for swiping and saving:
 - The hook is slide 1: name the moment they lived, then promise the payoff, e.g. "Your boss says there's no budget
   for raises. Say this instead." / "These 3 email lines make you sound unsure." 14 words max.
