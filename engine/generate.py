@@ -51,13 +51,22 @@ No advice in the hook. Examples: "You finally asked for the raise. And got the b
 Every hook pulls one trigger: being underpaid, being overlooked, freezing, guilt about asking, fear of losing the job
 or client, or quiet pride. If a hook would not make someone's stomach drop a little, rewrite it.
 
+THIS PAGE POSTS CAROUSELS (swipeable slides, one card per slide), so write for swiping and saving:
+- The hook is slide 1: name the moment they lived, then promise the payoff, e.g. "Your boss says there's no budget
+  for raises. Say this instead." / "These 3 email lines make you sound unsure." 14 words max.
+- Every middle slide stands on its own and gives one word-for-word line they can use (in quotes when it is a script),
+  14 words max per slide. Feel posts still open with the feeling, but at least two of their lines are scripts.
+- cta is an easy comment question answered in a word or number ("Yes or no?", "1, 2 or 3?").
+- footer: a save line for the last slide, 34 characters max, e.g. "Save this for your next raise talk".
+- caption starts with a save reason, e.g. "Save this before your next review. 3 swaps that make your ask sound confident."
+
 Every post also gets:
 - mood, exactly one of: comfort (a hard moment that turns to relief), uplift (pride, courage, winning),
   nostalgia (time and effort slipping away), playful (an everyday annoyance met with wit)
 - cast: the main character for the pictures, e.g. "a South Asian woman in her 20s with a low bun, in a coral blouse".
   Vary race, gender, age (20s to 50s) and job across posts; never repeat the last post's cast.
 - setting: one concrete place and who else is there, e.g. "a glass-walled meeting room, her manager across the table"
-- caption (1 short sentence plus 1 emoji)
+- caption (a save reason in 1 or 2 short sentences plus 1 emoji)
 - tags: exactly 4 hashtags: always #careeradvice #worklife, plus 2 that fit the topic
 
 Rules:
@@ -88,7 +97,7 @@ def _fix(s):
 
 
 def clean(p):
-    for k in ("topic", "who", "says", "cast", "setting", "cta", "caption", "title", "end", "feel_hook", "hook", "mood"):
+    for k in ("topic", "who", "says", "cast", "setting", "cta", "caption", "title", "end", "feel_hook", "hook", "mood", "footer"):
         if k in p:
             p[k] = _fix(p[k])
     if p["format"] == "feel":
