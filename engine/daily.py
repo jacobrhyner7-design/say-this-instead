@@ -219,7 +219,9 @@ def main():
                 rows.append({"date": day, "time_ct": s, "status": f"skipped: writing failed ({str(e)[:80]})", "source": "claude"})
 
     os.makedirs(OUT, exist_ok=True)
-    tracks = sorted(f for f in os.listdir(MUSIC) if f.endswith(".m4a"))
+    # music lives in engine/music/emotional; this page uses the confident, premium-feeling styles only
+    tracks = sorted(os.path.join("emotional", f) for f in os.listdir(os.path.join(MUSIC, "emotional"))
+                    if f.endswith(".m4a") and f.split("_")[0] in ("uplift", "nostalgia", "comfort"))
     promo_cfg = cfg["promo"]
     count = sum(1 for r in rows if r.get("submission_id"))
     for i, slot in enumerate(slots):

@@ -50,9 +50,10 @@
     "enabled": true,
     "handle": "saythis.instead",
     "account_id": "87771",
-    "caption_add": "💬 Comment PLAYBOOK and I'll DM you 75 scripts for raises, pricing and hard work talks.",
+    "caption_add": "",
     "trial_formats": [],
-    "trial_note": "Trial Reels off until the account meets Instagram's follower minimum (Lunar's trial failed 2026-11-11). To turn back on: trial_formats [\"feel\"]."
+    "trial_note": "Trial Reels off until the account meets Instagram's follower minimum (Lunar's trial failed 2026-11-11). To turn back on: trial_formats [\"feel\"].",
+    "caption_add_when_store_ready": "💬 Comment PLAYBOOK and I'll DM you 75 scripts for raises, pricing and hard work talks."
   },
   "engagement": {
     "store_url": "",
@@ -65,7 +66,8 @@
       "On its way to your DMs 🙌"
     ],
     "draft_replies_daily": true,
-    "first_comment": "Send this to someone who needs these words this week 💬"
+    "first_comment": "Send this to someone who needs these words this week 💬",
+    "store_note": "Captions promise the Playbook only once store_url is set: then copy caption_add_when_store_ready back into caption_add and run engage.yml with action setup-dm."
   },
   "voice": {
     "provider_note": "ElevenLabs is used when the ELEVENLABS_API_KEY secret and eleven_voice_id are both set; otherwise the free edge voice.",
@@ -84,7 +86,8 @@
     "account_id": "65338",
     "page_id": "1472066402653754",
     "page_name": "Say This Instead",
-    "caption_add": "💬 75 word-for-word scripts for raises, pricing and hard work talks: link on our Page."
+    "caption_add": "",
+    "caption_add_when_store_ready": "💬 75 word-for-word scripts for raises, pricing and hard work talks: link on our Page."
   },
   "day_overrides": {
     "note": "Publish-time changes by weekday (Monday=0 ... Saturday=5). The slot keeps its content; only the posting time moves.",
