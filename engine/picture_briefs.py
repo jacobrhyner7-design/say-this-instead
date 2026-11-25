@@ -9,7 +9,7 @@ the scene for each card is built from the card's role, so every picture matches 
 
 STYLE = ("Modern editorial illustration, flat graphic shapes, subtle grain, palette of navy, coral, cream and "
          "mustard. Main character: {cast}. Scene: {scene} Top 40 percent is a plain empty cream wall for text; "
-         "people in the lower 60 percent, faces visible and expressive. One single scene, no panels, no split frames, no duplicated people. No text, letters, numbers or logos.")
+         "people in the lower 60 percent, faces visible and expressive. One single scene, no panels, no split frames, no duplicated people. No text, letters, numbers or logos. Anatomy must be correct: every hand has exactly five fingers (one thumb and four fingers), every bare foot has exactly five toes, no extra, missing, merged or bent-back fingers. Prefer relaxed hands, hands holding something, or hands partly out of frame; never fingers held up to show a number.")
 
 
 def scenes_for(p):
