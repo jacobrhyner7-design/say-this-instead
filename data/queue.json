@@ -1,43 +1,5 @@
 [
  {
-  "format": "translator",
-  "topic": "Raises",
-  "who": "your boss",
-  "says": "We don't have budget for raises this year.",
-  "means": [
-   "The answer isn't no. It's not yet.",
-   "Make it easy for them to say yes later."
-  ],
-  "say": [
-   "I understand. What would need to be true to revisit this in March?",
-   "Can we put my goals and numbers in writing today?",
-   "If salary is fixed this year, can we talk title, bonus or time off?"
-  ],
-  "cta": "Has a boss ever told you there's no budget? Yes or no?",
-  "hook": "Your boss says there's no budget for raises. Say this instead.",
-  "mood": "comfort",
-  "cast": "a Black woman in her 30s with braids, in a mustard sweater",
-  "setting": "a glass-walled meeting room, her manager across the table looking apologetic",
-  "caption": "Save this before you ask for a raise. 3 word-for-word replies to the budget speech. 💬",
-  "tags": [
-   "#careeradvice",
-   "#worklife",
-   "#salarynegotiation",
-   "#raises"
-  ],
-  "scene_files": [
-   "posts/we-don-t-have-budget-for-raises-this-year/01.jpg",
-   "posts/we-don-t-have-budget-for-raises-this-year/02.jpg",
-   "posts/we-don-t-have-budget-for-raises-this-year/03.jpg",
-   "posts/we-don-t-have-budget-for-raises-this-year/04.jpg",
-   "posts/we-don-t-have-budget-for-raises-this-year/05.jpg",
-   "posts/we-don-t-have-budget-for-raises-this-year/06.jpg"
-  ],
-  "date": "2026-11-25",
-  "time": "20:00",
-  "footer": "Save this for your next raise talk"
- },
- {
   "format": "swap",
   "topic": "Raises",
   "title": "Stop saying these 3 things when you ask for a raise",
