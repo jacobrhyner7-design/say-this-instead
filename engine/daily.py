@@ -310,7 +310,7 @@ def main():
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a") as f:
-            f.write(f"## Toddler Translator {day}\n\n| Time CT | Hook | TikTok | Instagram |\n|---|---|---|---|\n")
+            f.write(f"## Say This Instead {day}\n\n| Time CT | Hook | TikTok | Instagram |\n|---|---|---|---|\n")
             for r in rows[-6:]:
                 f.write(f"| {r['date']} {r['time_ct']} | {r.get('hook', '')} | {r['status']} {r.get('url', '')} | "
                         f"{r.get('ig_status') or 'off'} {r.get('ig_url') or ''} |\n")

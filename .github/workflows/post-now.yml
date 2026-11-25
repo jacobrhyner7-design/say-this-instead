@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       says:
-        description: 'The 'says' line or title, exactly as in the queue (e.g. Can you do it cheaper?)'
+        description: "The says line or title, exactly as in the queue (e.g. Can you do it cheaper?)"
         required: true
       platform:
         description: "instagram, tiktok or both"
