@@ -16,7 +16,8 @@ CFG = json.load(open(os.path.join(ROOT, "config.json")))
 IG = CFG["instagram"]
 ENG = CFG.get("engagement", {})
 DATA = os.path.join(ROOT, "data", "replies.json")
-DM_NAME = "Comment SCRIPTS: send the Toolkit"
+DM_NAME = "Comment PLAYBOOK: send the Playbook"
+OLD_DM_NAMES = ("Comment SCRIPTS: send the Toolkit",)
 
 
 def summary(text):
@@ -36,7 +37,7 @@ def setup_dm():
             {"type": "message-received", "keywords": [kw]},
         ],
         "dmMessage": ENG["dm_message"],
-        "buttons": [{"type": "url", "title": ENG.get("dm_button", "Get the Toolkit"), "url": ENG["store_url"]}],
+        "buttons": [{"type": "url", "title": ENG.get("dm_button", "Get the Playbook"), "url": ENG["store_url"]}],
         "commentReply": {"variants": [{"text": t} for t in ENG["dm_public_replies"]]},
         "isActive": True,
     }
@@ -46,7 +47,7 @@ def setup_dm():
         q = "/dm-automations?limit=250" + (f"&cursor={urllib.parse.quote(cursor)}" if cursor else "")
         res = _call("GET", q)
         for it in res.get("items", []):
-            if it.get("name") == DM_NAME and str(it.get("accountId")) == str(IG["account_id"]):
+            if it.get("name") in (DM_NAME,) + OLD_DM_NAMES and str(it.get("accountId")) == str(IG["account_id"]):
                 existing = it
         cursor = res.get("cursor")
         if not cursor:
@@ -61,14 +62,15 @@ def setup_dm():
 
 
 # ---------- reply drafts ----------
-VOICE = """You reply to comments on Instagram posts for Toddler Translator, a calm-parenting page that gives
-parents the exact words to say to toddlers. You are warm, brief and real, like a kind friend who has toddlers too.
+VOICE = """You reply to comments on Instagram posts for Say This Instead, a page that gives people the exact words
+for hard work and money conversations: raises, salary, bosses, boundaries, clients, pricing and sales. Many followers
+work remotely. You are confident, warm and brief, like a sharp friend who has been through it.
 
 Rules:
 - 1 or 2 short sentences, max 180 characters. Plain text, at most 1 emoji. No hashtags, no links.
-- Respond to what they actually said. If they share a struggle, validate it and add one tiny practical tip.
-- Never give medical, sleep-training or diagnosis advice; for health worries, gently suggest their pediatrician.
-- Never use em dashes or en dashes. Don't mention you are an AI. Don't sell; the auto-DM handles the Toolkit.
+- Respond to what they actually said. If they share a situation, validate it and add one tiny practical wording tip.
+- Never give legal, tax, HR-dispute or investment advice; for those, suggest a qualified professional.
+- Never use em dashes or en dashes. Don't mention you are an AI. Don't sell; the auto-DM handles the Playbook.
 - If the comment is spam, rude, a bot, or needs a human (safety concern, complaint, very sensitive), reply exactly SKIP.
 
 Return ONLY JSON: {"replies":[{"n":1,"reply":"..."}]}"""
