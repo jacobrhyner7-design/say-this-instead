@@ -1,46 +1,5 @@
 [
  {
-  "format": "swap",
-  "topic": "Raises",
-  "title": "Stop saying these 3 things when you ask for a raise",
-  "pairs": [
-   [
-    "I feel like I deserve more.",
-    "This year I delivered X. I'd like my pay to reflect it."
-   ],
-   [
-    "Is there any way I could get a raise?",
-    "I'd like to discuss moving my salary to X."
-   ],
-   [
-    "Sorry, I know it's a bad time...",
-    "Do you have 15 minutes this week to talk about my pay?"
-   ]
-  ],
-  "cta": "Which one have you said before? 1, 2 or 3?",
-  "hook": "Asking for a raise? Never open with these 3 lines.",
-  "mood": "uplift",
-  "cast": "a Middle Eastern man in his 30s with dark wavy hair, in a light blue shirt",
-  "setting": "standing outside his manager's office door, taking a breath",
-  "caption": "Save this before your next review. 3 swaps that make your raise ask sound confident. 💬",
-  "tags": [
-   "#careeradvice",
-   "#worklife",
-   "#salarynegotiation",
-   "#raises"
-  ],
-  "scene_files": [
-   "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/01.jpg",
-   "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/02.jpg",
-   "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/03.jpg",
-   "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/04.jpg",
-   "posts/stop-saying-these-3-things-when-you-ask-for-a-raise/05.jpg"
-  ],
-  "date": "2026-11-26",
-  "time": "20:00",
-  "footer": "Save this before your review"
- },
- {
   "format": "translator",
   "topic": "Pricing",
   "who": "the client",
