@@ -1,0 +1,157 @@
+{
+  "weeks": {
+    "2026-11-23": {
+      "week_of": "2026-11-23",
+      "window": "2026-11-20 to 2026-11-27",
+      "collected_at": "2026-11-27T21:40Z",
+      "page": "Say This Instead",
+      "followers": {
+        "tiktok": 1,
+        "instagram": 1,
+        "facebook": 0
+      },
+      "tiktok_note": "Signed in (TikTok Studio). 7d: 1.3K views, 22 likes, 4 comments, 1 share, profile views 1.",
+      "instagram_30d": {
+        "account": "saythis.instead",
+        "views": 0,
+        "viewers": 0,
+        "interactions": 6,
+        "accounts_engaged": 1,
+        "profile_visits": 1,
+        "note": "all 5 recent items show 0 views"
+      },
+      "kit": {
+        "form": "Say This Instead Playbook",
+        "visitors_90d": 3,
+        "subscribers_90d": 0,
+        "conversion_pct": 0
+      },
+      "posts": [
+        {
+          "platform": "tiktok",
+          "id": "7712699932695661854",
+          "posted_local": "2026-11-26T22:15",
+          "format": "video",
+          "tag": "stop-saying-3-things raise",
+          "views": 225,
+          "likes": 3,
+          "comments": 1,
+          "shares": 0,
+          "saves": 1,
+          "new_followers": 0,
+          "avg_watch_s": 6.34,
+          "full_watch_pct": 15.2,
+          "shares_per_1k": 0.0,
+          "saves_per_1k": 4.4,
+          "comment_rate_pct": 0.44
+        },
+        {
+          "platform": "tiktok",
+          "id": "7712307757604539661",
+          "posted_local": "2026-11-25T20:53",
+          "format": "video",
+          "tag": "no-budget-for-raises script",
+          "views": 610,
+          "likes": 9,
+          "comments": 1,
+          "shares": 0,
+          "saves": 7,
+          "new_followers": 0,
+          "avg_watch_s": 11.35,
+          "full_watch_pct": 21.8,
+          "shares_per_1k": 0.0,
+          "saves_per_1k": 11.5,
+          "comment_rate_pct": 0.16
+        },
+        {
+          "platform": "tiktok",
+          "id": "7711936249195531533",
+          "posted_local": "2026-11-24T20:51",
+          "format": "video",
+          "tag": "froze-in-meeting",
+          "views": 587,
+          "likes": 13,
+          "comments": 3,
+          "shares": 1,
+          "saves": 5,
+          "new_followers": 1,
+          "avg_watch_s": 7.26,
+          "full_watch_pct": 12.4,
+          "shares_per_1k": 1.7,
+          "saves_per_1k": 8.5,
+          "comment_rate_pct": 0.51
+        },
+        {
+          "platform": "facebook",
+          "posted_local": "2026-11-26T20:00",
+          "format": "carousel",
+          "tag": "stop-saying-3-things raise",
+          "views": 0,
+          "viewers": 0,
+          "likes": 0,
+          "comments": 1,
+          "shares": 0,
+          "saves": 0,
+          "follows": 0,
+          "shares_per_1k": null,
+          "saves_per_1k": null,
+          "comment_rate_pct": null
+        },
+        {
+          "platform": "facebook",
+          "posted_local": "2026-11-25T20:00",
+          "format": "carousel",
+          "tag": "no-budget-for-raises script",
+          "views": 0,
+          "viewers": 0,
+          "likes": 0,
+          "comments": 1,
+          "shares": 0,
+          "saves": 0,
+          "follows": 0,
+          "shares_per_1k": null,
+          "saves_per_1k": null,
+          "comment_rate_pct": null
+        },
+        {
+          "platform": "facebook",
+          "posted_local": "2026-11-24T20:00",
+          "format": "carousel",
+          "tag": "froze-in-meeting",
+          "views": 0,
+          "viewers": 0,
+          "likes": 0,
+          "comments": 1,
+          "shares": 0,
+          "saves": 0,
+          "follows": 0,
+          "shares_per_1k": null,
+          "saves_per_1k": null,
+          "comment_rate_pct": null
+        }
+      ],
+      "totals": {
+        "tiktok": {
+          "posts": 3,
+          "views": 1422,
+          "likes": 25,
+          "comments": 5,
+          "shares": 1,
+          "saves": 13,
+          "shares_per_1k": 0.7,
+          "saves_per_1k": 9.14
+        },
+        "facebook": {
+          "posts": 3,
+          "views": 0,
+          "likes": 0,
+          "comments": 3,
+          "shares": 0,
+          "saves": 0,
+          "shares_per_1k": null,
+          "saves_per_1k": null
+        }
+      }
+    }
+  }
+}
