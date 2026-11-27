@@ -1,44 +1,5 @@
 [
  {
-  "format": "translator",
-  "topic": "Pricing",
-  "who": "the client",
-  "says": "Can you do it cheaper?",
-  "means": [
-   "I want to work with you, but I'm testing your price.",
-   "A calm answer tells me you're worth it."
-  ],
-  "say": [
-   "Possibly. Cheaper compared to what?",
-   "What part of this matters most to you?",
-   "Money aside, is this the result you want?"
-  ],
-  "cta": "What's the lowest anyone has asked you to go?",
-  "hook": "They loved your work. Then asked you to go cheaper. Say this.",
-  "mood": "playful",
-  "cast": "a South Asian man in his 30s with a short beard, freelance designer in a denim shirt",
-  "setting": "a sunny home office, video call with a client on his laptop",
-  "caption": "Save this for the next time a client asks for a discount. 3 calm replies that protect your price. 💬",
-  "tags": [
-   "#careeradvice",
-   "#worklife",
-   "#salarynegotiation",
-   "#pricing"
-  ],
-  "scene_files": [
-   "posts/can-you-do-it-cheaper/01.jpg",
-   "posts/can-you-do-it-cheaper/02.jpg",
-   "posts/can-you-do-it-cheaper/03.jpg",
-   "posts/can-you-do-it-cheaper/04.jpg",
-   "posts/can-you-do-it-cheaper/05.jpg",
-   "posts/can-you-do-it-cheaper/06.jpg"
-  ],
-  "nepq": true,
-  "date": "2026-11-27",
-  "time": "20:00",
-  "footer": "Save this for your next quote"
- },
- {
   "format": "feel",
   "topic": "Pricing",
   "title": "You undercharged again.",
