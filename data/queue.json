@@ -1,40 +1,5 @@
 [
  {
-  "format": "feel",
-  "topic": "Pricing",
-  "title": "You undercharged again.",
-  "lines": [
-   "Pricing low feels safer than hearing no. It isn't.",
-   "Before your number, ask: \"What is fixing this worth to you?\"",
-   "Then say your price once. No discount. No apology."
-  ],
-  "end": "Send this to someone who undercharges.",
-  "cta": "What would you charge if you weren't scared?",
-  "hook": "Your low price isn't winning clients. It's losing them.",
-  "mood": "comfort",
-  "cast": "a white man in his 40s with a red beard, carpenter in a work apron",
-  "setting": "his workshop, looking at an invoice on his phone with a sigh",
-  "caption": "Save this before you send your next quote. 💬",
-  "tags": [
-   "#careeradvice",
-   "#worklife",
-   "#salarynegotiation",
-   "#pricing"
-  ],
-  "scene_files": [
-   "posts/you-undercharged-again/01.jpg",
-   "posts/you-undercharged-again/02.jpg",
-   "posts/you-undercharged-again/03.jpg",
-   "posts/you-undercharged-again/04.jpg",
-   "posts/you-undercharged-again/05.jpg"
-  ],
-  "nepq": true,
-  "date": "2026-11-28",
-  "time": "20:00",
-  "footer": "Save this for your next quote",
-  "hook_before_nov28": "You undercharged again. Here's how to stop."
- },
- {
   "format": "translator",
   "topic": "Salary",
   "who": "the recruiter",
