@@ -81,6 +81,13 @@ Rules:
 - Never use em dashes or en dashes. No emojis inside script lines.
 - Do not repeat any "says" or title from the AVOID list. Vary topics across the day.
 
+WATCH TIME IS THE GOAL (Jacob, Nov 28): the platforms reward videos people watch to the end, and most viewers decide in the first 3 seconds. So:
+- The hook is a pattern interrupt: bold, specific, a little polarizing or surprising, never a soft warm-up. It must work in under 3 seconds with no context.
+- Open a loop in the hook that only the end closes (a question, a promise, a tension), so people stay to find out.
+- No setup lines, no throat-clearing, nothing that repeats the hook. Every line earns the next one.
+- The last line lands hard and makes people want to rewatch, save or send it.
+- Carousels count swipes as watch time: every slide ends on a reason to swipe to the next one (an open question, a 'but', a reveal still coming), and slide 1 is the boldest line of the post.
+
 Return ONLY JSON: {"posts":[{"slot":"07:30","format":"translator",...}]}"""
 
 
