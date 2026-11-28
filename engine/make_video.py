@@ -790,6 +790,43 @@ def emotional_track(p, seed):
 NO_MUSIC = False  # True for the TikTok draft version: voice only, so a trending sound can be added in the app
 
 
+def swipe_teasers(texts):
+    """Watch time on carousels is swiping (Nov 28): every slide but the last tells people why to swipe."""
+    out, swap_n = [], 0
+    for i in range(len(texts)):
+        if i == len(texts) - 1:
+            out.append(None); continue
+        nxt = texts[i + 1]
+        if nxt.startswith("When "):
+            out.append("What they really mean")
+        elif nxt.startswith("Say this instead"):
+            out.append("What to say instead")
+        elif nxt.startswith("Instead of"):
+            swap_n += 1; out.append(f"Swap {swap_n} of 3")
+        elif nxt.startswith(("Send this", "Save this", "Tell me", "Share this")):
+            out.append("One last thing")
+        elif i == 0:
+            out.append("Here's how")
+        else:
+            out.append("The next line")
+    return out
+
+
+def swipe_pill(text):
+    """Small 'swipe' cue near the bottom, inside the Instagram 3:4 crop."""
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    f = ImageFont.truetype(F("Poppins-Bold.ttf"), 38)
+    tw = d.textlength(text, font=f); aw = 34; y = 1372
+    full = tw + 18 + aw; x0 = (W - full) / 2
+    d.rounded_rectangle((x0 - 30, y - 34, x0 + full + 30, y + 34), 34, fill=(20, 24, 40, 200))
+    d.text((x0, y), text, font=f, fill=(255, 255, 255, 255), anchor="lm")
+    ax = x0 + tw + 18  # hand-drawn arrow (the font has no arrow glyph)
+    d.line((ax, y, ax + aw, y), fill="white", width=5)
+    d.line((ax + aw - 13, y - 12, ax + aw, y), fill="white", width=5)
+    d.line((ax + aw - 13, y + 12, ax + aw, y), fill="white", width=5)
+    return im
+
+
 def make_carousel(p, outdir, seed=1):
     """Swipeable slides for a carousel post: every card of the full plan (no trimming) over its own picture.
     Writes outdir/slide_NN.jpg (1080x1920, TikTok photo mode) and outdir/slide_NN_34.jpg (1080x1440, Instagram and
@@ -800,6 +837,7 @@ def make_carousel(p, outdir, seed=1):
     picks = own if own and len(own) == len(cards) and all(os.path.exists(f) for f in own) else \
         choose_scenes(p, [h for _, _, h in cards], seed)
     tall, crops = [], []
+    teasers = swipe_teasers([t for _, t, _ in cards])
     for i, ((o, _, _), pic) in enumerate(zip(cards, picks)):
         sc = Image.open(pic).convert("RGB").resize((W, int(W * 1930 / 1080)))
         if not getattr(o, "is_cold", False):
@@ -809,7 +847,10 @@ def make_carousel(p, outdir, seed=1):
             z = 1.42; cw, ch = W / z, H / z
             x0 = (W - cw) / 2; y0 = max(0, min(H - ch, H * 0.47 - ch / 2))
             base = base.resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + cw, y0 + ch))
-        img = base.convert("RGBA"); img.alpha_composite(o); img = img.convert("RGB")
+        img = base.convert("RGBA"); img.alpha_composite(o)
+        if teasers[i]:
+            img.alpha_composite(swipe_pill(teasers[i]))
+        img = img.convert("RGB")
         a = os.path.join(outdir, f"slide_{i + 1:02d}.jpg"); img.save(a, quality=90); tall.append(a)
         b = os.path.join(outdir, f"slide_{i + 1:02d}_34.jpg"); img.crop((0, 60, W, 60 + 1440)).save(b, quality=90)
         crops.append(b)

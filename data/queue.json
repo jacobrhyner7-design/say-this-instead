@@ -10,7 +10,7 @@
   ],
   "end": "Send this to someone who undercharges.",
   "cta": "What would you charge if you weren't scared?",
-  "hook": "You undercharged again. Here's how to stop.",
+  "hook": "Your low price isn't winning clients. It's losing them.",
   "mood": "comfort",
   "cast": "a white man in his 40s with a red beard, carpenter in a work apron",
   "setting": "his workshop, looking at an invoice on his phone with a sigh",
@@ -31,7 +31,8 @@
   "nepq": true,
   "date": "2026-11-28",
   "time": "20:00",
-  "footer": "Save this for your next quote"
+  "footer": "Save this for your next quote",
+  "hook_before_nov28": "You undercharged again. Here's how to stop."
  },
  {
   "format": "translator",
@@ -48,7 +49,7 @@
    "I'm flexible for the right fit. What's the full package?"
   ],
   "cta": "Do you name a number first, or make them go first?",
-  "hook": "One question can cost you $10,000. Here's how to answer it.",
+  "hook": "Answer this interview question wrong and lose $10,000.",
   "mood": "uplift",
   "cast": "an East Asian woman in her 20s with a sleek bob, in a navy blazer",
   "setting": "a cozy cafe, on a phone call with a recruiter, notebook open",
@@ -69,7 +70,8 @@
   ],
   "date": "2026-11-29",
   "time": "20:00",
-  "footer": "Save this for your next interview"
+  "footer": "Save this for your next interview",
+  "hook_before_nov28": "One question can cost you $10,000. Here's how to answer it."
  },
  {
   "format": "swap",
@@ -90,7 +92,7 @@
    ]
   ],
   "cta": "Which one do you type the most? 1, 2 or 3?",
-  "hook": "These 3 lines make your Slack messages sound unsure.",
+  "hook": "'Sorry to bug you' costs you respect at work.",
   "mood": "playful",
   "cast": "an East Asian woman in her 30s with a short bob, in an oversized cream sweater",
   "setting": "at her kitchen table working from home, a laptop open to a team chat app, a mug beside her",
@@ -110,7 +112,8 @@
   ],
   "date": "2026-11-30",
   "time": "20:00",
-  "footer": "Save this for your next message"
+  "footer": "Save this for your next message",
+  "hook_before_nov28": "These 3 lines make your Slack messages sound unsure."
  },
  {
   "format": "translator",
@@ -127,7 +130,7 @@
    "Which of my tasks should I drop to take this on?"
   ],
   "cta": "Who's the coworker who always needs a quick favor?",
-  "hook": "4:55. Then the 'quick' ping. Say this.",
+  "hook": "The 4:55 'quick' ping is a trap. Say this.",
   "mood": "playful",
   "cast": "a Latino man in his 40s with glasses, in a coral polo",
   "setting": "his home office at dusk, about to close his laptop as a chat message pops up on the screen",
@@ -148,7 +151,8 @@
   ],
   "date": "2026-12-01",
   "time": "12:15",
-  "footer": "Save this for the next quick favor"
+  "footer": "Save this for the next quick favor",
+  "hook_before_nov28": "4:55. Then the 'quick' ping. Say this."
  },
  {
   "format": "feel",
@@ -162,7 +166,7 @@
   ],
   "end": "Send this to someone who needs to hear it.",
   "cta": "Which one is hardest for you to ask for?",
-  "hook": "Asking for money feels awkward. These words make it easier.",
+  "hook": "Being polite about money is why you earn less.",
   "mood": "nostalgia",
   "cast": "a South Asian woman in her 30s with long dark hair, in a teal kurta top",
   "setting": "sitting by a rainy window at home with tea, laptop closed",
@@ -183,7 +187,8 @@
   ],
   "date": "2026-12-01",
   "time": "20:00",
-  "footer": "Save this for your next money talk"
+  "footer": "Save this for your next money talk",
+  "hook_before_nov28": "Asking for money feels awkward. These words make it easier."
  },
  {
   "format": "translator",
@@ -200,7 +205,7 @@
    "Let's suppose that's solved. What would you want next?"
   ],
   "cta": "What's the hardest objection you hear?",
-  "hook": "'I need to think about it.' Here's how to keep the sale alive.",
+  "hook": "'I need to think about it' usually means no.",
   "mood": "comfort",
   "cast": "a white woman in her 30s with a high ponytail, saleswoman in a cream blouse",
   "setting": "a client's kitchen table with a proposal spread out, the buyer leaning back unsure",
@@ -222,7 +227,8 @@
   "nepq": true,
   "date": "2026-12-02",
   "time": "12:15",
-  "footer": "Save this for your next sales call"
+  "footer": "Save this for your next sales call",
+  "hook_before_nov28": "'I need to think about it.' Here's how to keep the sale alive."
  },
  {
   "format": "swap",
@@ -243,7 +249,7 @@
    ]
   ],
   "cta": "What's the best deal you ever negotiated?",
-  "hook": "You paid full price again. Swap these 3 lines.",
+  "hook": "Asking 'what's your best price?' gets you the worst deal.",
   "mood": "playful",
   "cast": "a Black man in his 40s with a salt and pepper beard, in a navy quarter zip",
   "setting": "a car dealership desk, a salesperson sliding a paper across",
@@ -263,7 +269,8 @@
   ],
   "date": "2026-12-02",
   "time": "20:00",
-  "footer": "Save this for your next big purchase"
+  "footer": "Save this for your next big purchase",
+  "hook_before_nov28": "You paid full price again. Swap these 3 lines."
  },
  {
   "format": "translator",
@@ -280,7 +287,7 @@
    "Can we agree on a cutoff time for after-hours messages?"
   ],
   "cta": "Do you answer work messages after 7? Yes or no?",
-  "hook": "8pm. Then the ping. Say this.",
+  "hook": "Answering at 8pm teaches your boss you're always on.",
   "mood": "comfort",
   "cast": "a Pacific Islander woman in her 30s with long wavy black hair, in an olive cardigan",
   "setting": "her living room couch at night, her phone lighting up with a work message, dinner plates on the table",
@@ -301,7 +308,8 @@
   ],
   "date": "2026-12-03",
   "time": "12:15",
-  "footer": "Save this for the next late ping"
+  "footer": "Save this for the next late ping",
+  "hook_before_nov28": "8pm. Then the ping. Say this."
  },
  {
   "format": "feel",
@@ -315,7 +323,7 @@
   ],
   "end": "Send this to someone having a hard work week.",
   "cta": "What got you through your worst work week?",
-  "hook": "If you cried in your car before work today, read this.",
+  "hook": "You cried in your car before work. You're not weak.",
   "mood": "comfort",
   "cast": "a white woman in her 20s with a messy blonde bun, in a nurse's scrubs",
   "setting": "sitting in her car in a hospital parking lot at sunrise, hands on the wheel",
@@ -336,7 +344,8 @@
   ],
   "date": "2026-12-03",
   "time": "20:00",
-  "footer": "Save this for a hard day"
+  "footer": "Save this for a hard day",
+  "hook_before_nov28": "If you cried in your car before work today, read this."
  },
  {
   "format": "translator",
@@ -353,7 +362,7 @@
    "I'll pause new work until the invoice is paid."
   ],
   "cta": "Longest you've ever waited to get paid?",
-  "hook": "The client says payment will be late. Say this.",
+  "hook": "A late payment is a test. Pass it.",
   "mood": "comfort",
   "cast": "a Native American woman in her 30s with a long black braid, photographer",
   "setting": "her home office, reading an email from a client on her laptop, an unpaid invoice open beside it",
@@ -374,7 +383,8 @@
   ],
   "date": "2026-12-04",
   "time": "12:15",
-  "footer": "Save this for your next late invoice"
+  "footer": "Save this for your next late invoice",
+  "hook_before_nov28": "The client says payment will be late. Say this."
  },
  {
   "format": "swap",
@@ -395,7 +405,7 @@
    ]
   ],
   "cta": "What do you wish you'd said no to this week?",
-  "hook": "You said yes again. Swap these 3 lines.",
+  "hook": "'I'm so sorry, I can't' makes your no weaker.",
   "mood": "playful",
   "cast": "a Black woman in her 40s with a short natural afro, in a coral dress",
   "setting": "looking at an overflowing calendar on a wall screen, coffee in hand",
@@ -415,7 +425,8 @@
   ],
   "date": "2026-12-04",
   "time": "20:00",
-  "footer": "Save this for the next ask"
+  "footer": "Save this for the next ask",
+  "hook_before_nov28": "You said yes again. Swap these 3 lines."
  },
  {
   "format": "translator",
@@ -432,7 +443,7 @@
    "Is there anything that makes you hesitate about me?"
   ],
   "cta": "What's the best question you've asked in an interview?",
-  "hook": "The video interview is ending. And your mind just went blank.",
+  "hook": "Never say 'no questions' at the end of an interview.",
   "mood": "uplift",
   "cast": "a Latina woman in her 20s with curly hair, in a coral blazer",
   "setting": "a video job interview at home, her laptop propped on books, two interviewers smiling politely on the screen",
@@ -453,7 +464,8 @@
   ],
   "date": "2026-12-05",
   "time": "12:15",
-  "footer": "Save this for your next interview"
+  "footer": "Save this for your next interview",
+  "hook_before_nov28": "The video interview is ending. And your mind just went blank."
  },
  {
   "format": "feel",
@@ -467,7 +479,7 @@
   ],
   "end": "Send this to someone who got passed over.",
   "cta": "Have you ever been passed over? Yes or no?",
-  "hook": "They promoted someone else. Here's what to say next.",
+  "hook": "They promoted someone else. Don't quit. Say this first.",
   "mood": "comfort",
   "cast": "an East Asian man in his 40s with short gray hair, in a white shirt and loosened tie",
   "setting": "clapping at an office celebration for a coworker, his smile not reaching his eyes",
@@ -488,7 +500,8 @@
   ],
   "date": "2026-12-05",
   "time": "20:00",
-  "footer": "Save this for your next review"
+  "footer": "Save this for your next review",
+  "hook_before_nov28": "They promoted someone else. Here's what to say next."
  },
  {
   "format": "translator",
@@ -505,7 +518,7 @@
    "I'm comparing places nearby. Is there room to talk?"
   ],
   "cta": "How much did your rent go up this year?",
-  "hook": "Your rent is going up. Say this before you sign.",
+  "hook": "Don't sign that rent increase. Say this first.",
   "mood": "comfort",
   "cast": "a Middle Eastern woman in her 20s with a hijab in soft blue",
   "setting": "her small apartment kitchen, reading her phone, keys on the counter",
@@ -526,7 +539,8 @@
   ],
   "date": "2026-12-06",
   "time": "12:15",
-  "footer": "Save this before your lease renews"
+  "footer": "Save this before your lease renews",
+  "hook_before_nov28": "Your rent is going up. Say this before you sign."
  },
  {
   "format": "swap",
@@ -547,7 +561,7 @@
    ]
   ],
   "cta": "What's the worst interview answer you've heard?",
-  "hook": "These 3 answers quietly cost you the job.",
+  "hook": "'I'm a perfectionist' gets quietly laughed at.",
   "mood": "playful",
   "cast": "a white man in his 20s with curly brown hair, in a navy suit",
   "setting": "a waiting room outside an interview, adjusting his tie",
@@ -567,7 +581,8 @@
   ],
   "date": "2026-12-06",
   "time": "20:00",
-  "footer": "Save this for your next interview"
+  "footer": "Save this for your next interview",
+  "hook_before_nov28": "These 3 answers quietly cost you the job."
  },
  {
   "format": "translator",
@@ -584,7 +599,7 @@
    "Can we check in again in 2 weeks on my progress?"
   ],
   "cta": "What's the hardest feedback you ever got?",
-  "hook": "A 'quick call' invite. No agenda. Your heart starts racing.",
+  "hook": "A 'quick call' with no agenda. Here's what it means.",
   "mood": "comfort",
   "cast": "a Pacific Islander man in his 30s with a man bun, in a mustard shirt",
   "setting": "his home office, staring at a calendar invite with no agenda on his laptop, headphones around his neck",
@@ -605,7 +620,8 @@
   ],
   "date": "2026-12-07",
   "time": "12:15",
-  "footer": "Save this for your next review"
+  "footer": "Save this for your next review",
+  "hook_before_nov28": "A 'quick call' invite. No agenda. Your heart starts racing."
  },
  {
   "format": "feel",
@@ -618,7 +634,7 @@
   ],
   "end": "Send this to someone learning money talk late.",
   "cta": "What money skill do you wish you'd learned younger?",
-  "hook": "Nobody taught you money talk. Start with these 3 lines.",
+  "hook": "Nobody taught you money talk. That's not your fault.",
   "mood": "nostalgia",
   "cast": "a Latino man in his 30s with a fade haircut, in a gray hoodie",
   "setting": "at his childhood family dinner table, looking at an old photo",
@@ -638,7 +654,8 @@
   ],
   "date": "2026-12-07",
   "time": "20:00",
-  "footer": "Save this and use one this week"
+  "footer": "Save this and use one this week",
+  "hook_before_nov28": "Nobody taught you money talk. Start with these 3 lines."
  },
  {
   "format": "translator",
@@ -655,7 +672,7 @@
    "If price is the only factor, they might be the better choice."
   ],
   "cta": "How do you handle 'I found it cheaper'?",
-  "hook": "'I found it cheaper.' Don't match it. Say this.",
+  "hook": "Never match a cheaper price. Say this instead.",
   "mood": "playful",
   "cast": "a South Asian woman in her 40s with a gray streak in her hair, store owner",
   "setting": "behind the counter of her small boutique, a customer holding up a phone",
@@ -677,7 +694,8 @@
   "nepq": true,
   "date": "2026-12-08",
   "time": "07:30",
-  "footer": "Save this for your next sales call"
+  "footer": "Save this for your next sales call",
+  "hook_before_nov28": "'I found it cheaper.' Don't match it. Say this."
  },
  {
   "format": "feel",
@@ -690,7 +708,7 @@
   ],
   "end": "Send this to someone quoting a price today.",
   "cta": "What's your number?",
-  "hook": "How to say your price without apologizing.",
+  "hook": "Apologizing for your price tells them to haggle.",
   "mood": "uplift",
   "cast": "a Native American man in his 30s with short black hair, landscaper",
   "setting": "standing in a client's front yard with a clipboard, the homeowner listening",
@@ -711,7 +729,8 @@
   "nepq": true,
   "date": "2026-12-08",
   "time": "12:15",
-  "footer": "Save this for your next quote"
+  "footer": "Save this for your next quote",
+  "hook_before_nov28": "How to say your price without apologizing."
  },
  {
   "format": "feel",
@@ -725,7 +744,7 @@
   ],
   "end": "Send this to someone who needs to ask.",
   "cta": "What's one thing you'll ask for this week?",
-  "hook": "Every time you didn't ask, you paid for it. Start here.",
+  "hook": "Not asking cost you more than a no ever will.",
   "mood": "uplift",
   "cast": "a Black woman in her 30s with a sleek ponytail, in a cream blazer",
   "setting": "walking confidently down a city sidewalk in the morning, coffee in hand",
@@ -746,6 +765,7 @@
   ],
   "date": "2026-12-08",
   "time": "20:00",
-  "footer": "Save this and pick one"
+  "footer": "Save this and pick one",
+  "hook_before_nov28": "Every time you didn't ask, you paid for it. Start here."
  }
 ]
